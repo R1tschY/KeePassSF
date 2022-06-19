@@ -1,6 +1,12 @@
 *.user.*
 *.user
 *~
+
+moc_*.cpp
+qrc_*.cpp
 *.o
+*.qm
+*.list
+Makefile
 /build*
 /common/src/keepassPlugin/keepass2_database/build-keepassxc*
