@@ -49,10 +49,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %defattr(644,root,root,-)
-%{_datadir}/icons/hicolor/86x86/apps
-%{_datadir}/icons/hicolor/108x108/apps
-%{_datadir}/icons/hicolor/128x128/apps
-%{_datadir}/icons/hicolor/256x256/apps
+%{_datadir}/icons/hicolor/*/apps/%{name}.png
 %{_datadir}/applications
 %{_datadir}/harbour-ownkeepass
 %attr(755,-,-) %{_bindir}

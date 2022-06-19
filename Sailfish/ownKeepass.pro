@@ -63,27 +63,13 @@ dependencies.files += \
     $$LIB_DIR_NAME/libgpg-error.so.0 \
     $$LIB_DIR_NAME/libsodium.so.23
 
-# process all application icon sizes
-icon_file_86x86.path    = /usr/share/icons/hicolor/86x86/apps
-icon_file_86x86.files   = icons/86x86/$${TARGET}.png
-icon_file_108x108.path  = /usr/share/icons/hicolor/108x108/apps
-icon_file_108x108.files = icons/108x108/$${TARGET}.png
-icon_file_128x128.path  = /usr/share/icons/hicolor/128x128/apps
-icon_file_128x128.files = icons/128x128/$${TARGET}.png
-icon_file_256x256.path  = /usr/share/icons/hicolor/256x256/apps
-icon_file_256x256.files = icons/256x256/$${TARGET}.png
-
 # icons are put into resources
-#QMAKE_RESOURCE_FLAGS += -no-compress
+QMAKE_RESOURCE_FLAGS += -no-compress
 RESOURCES = ../common/images/icons.qrc
 
 INSTALLS += \
     common_files \
-    dependencies \
-    icon_file_86x86 \
-    icon_file_108x108 \
-    icon_file_128x128 \
-    icon_file_256x256
+    dependencies
 
 # adding standard installation paths for a sailfish OS app
 CONFIG += sailfishapp
@@ -151,6 +137,9 @@ OTHER_FILES += \
     qml/common/SilicaMenuLabel.qml \
     qml/components/MainPageMoreDetails.qml \
     qml/common/PasswordFieldCombo.qml
+
+
+SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172 256x256
 
 # to disable building translations every time, comment out the
 # following CONFIG line
