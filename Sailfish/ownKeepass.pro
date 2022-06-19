@@ -57,6 +57,21 @@ common_files.files += \
     ../common/images/covericons \
     ../common/images/wallicons
 
+# Copy *.so dependencies
+
+contains(QT_ARCH, arm64) {
+    LIB_DIR_NAME = /usr/lib64
+} else {
+    LIB_DIR_NAME = /usr/lib
+}
+
+dependencies.path   = /usr/share/$${TARGET}/lib
+dependencies.files += \
+    $$LIB_DIR_NAME/libgcrypt.so.20 \
+    $$LIB_DIR_NAME/libargon2.so.0 \
+    $$LIB_DIR_NAME/libgpg-error.so.0 \
+    $$LIB_DIR_NAME/libsodium.so.23
+
 # process all application icon sizes
 icon_file_86x86.path    = /usr/share/icons/hicolor/86x86/apps
 icon_file_86x86.files   = icons/86x86/$${TARGET}.png
@@ -73,6 +88,7 @@ RESOURCES = ../common/images/icons.qrc
 
 INSTALLS += \
     common_files \
+    dependencies \
     icon_file_86x86 \
     icon_file_108x108 \
     icon_file_128x128 \
