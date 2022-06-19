@@ -1,4 +1,4 @@
-Name:       harbour-ownkeepass
+Name:       harbour-keepasssf
 
 %define __provides_exclude_from ^%{_datadir}/.*$
 %define __requires_exclude ^libgcrypt|libgpg-error|libargon2|libsodium.*$
@@ -12,7 +12,7 @@ Version:    2.0.2
 Release:    1
 Group:      Qt/Qt
 License:    GPL v2
-URL:        https://github.com/jobe-m/ownkeepass
+URL:        https://github.com/R1tschY/keepasssf
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5 >= 0.10.9
 BuildRequires:  pkgconfig(sailfishapp) >= 0.0.10
@@ -32,7 +32,7 @@ other data that should be kept secret on your Jolla Smartphone. The
 database where that data is stored is encrypted using a master password.
 
 %prep
-%setup -q -n %{name}-%{version}/Sailfish
+%setup -q -n %{name}-%{version}
 
 %build
 
@@ -51,5 +51,5 @@ rm -rf %{buildroot}
 %defattr(644,root,root,-)
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 %{_datadir}/applications
-%{_datadir}/harbour-ownkeepass
+%{_datadir}/harbour-keepasssf
 %attr(755,-,-) %{_bindir}

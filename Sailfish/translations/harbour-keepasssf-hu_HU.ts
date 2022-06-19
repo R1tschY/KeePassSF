@@ -5,13 +5,18 @@
     <name>AboutPage</name>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="47"/>
-        <source>About ownKeepass</source>
-        <translation>Az ownKeepass-ról</translation>
+        <source>About KeePassSF</source>
+        <translation>Az KeePassSF-ról</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="48"/>
         <source>Password Safe</source>
         <translation>Biztonságos jelszó</translation>
+    </message>
+    <message>
+        <location filename="../qml/content/AboutPage.qml" line="66"/>
+        <source>KeePassSF is a KeePass 2 compatible password safe application</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="74"/>
@@ -31,8 +36,8 @@
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="109"/>
-        <source>ownKeepass is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
-        <translation>Az ownKeepass a GNU General Public License (GPL) 2-es verziója szerint vagy a GPL 3-as verziójának (az Ön választása szerint) feltételeivel terjeszthető.</translation>
+        <source>KeePassSF is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
+        <translation>Az KeePassSF a GNU General Public License (GPL) 2-es verziója szerint vagy a GPL 3-as verziójának (az Ön választása szerint) feltételeivel terjeszthető.</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="141"/>
@@ -56,14 +61,14 @@
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="200"/>
-        <source>The KeepassX project (for a Qt implementation of Keepass)</source>
-        <translation>A KeepassX projekt (a Keepass Qt átültetéséhez)</translation>
+        <source>The KeepassXC project (for a Qt implementation of Keepass)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="202"/>
-        <source>And finally many thanks to all translators on %1 and contributors on %2 (for keeping me motivated to work on ownKeepass)</source>
+        <source>And finally many thanks to all translators on %1 and contributors on %2</source>
         <extracomment>%1 and %2 are placeholders for links to the project on transifex and github</extracomment>
-        <translation>Végül rengeteg köszönet minden fordítónak itt: %1 és minden közreműködőnek itt: %2 (hogy motiváltak, hogy tovább dolgozzak az ownKeepass-on)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="205"/>
@@ -76,19 +81,9 @@
         <translation>A fordítók abc sorrendben:</translation>
     </message>
     <message>
-        <location filename="../qml/content/AboutPage.qml" line="256"/>
-        <source>I hope you have as much fun using ownKeepass as I have creating it!</source>
-        <translation>Remélem, nektek legalább annyi élvezetet okoz az ownKeepass alkalmazása, mint amennyit nekem okozott a megalkotása!</translation>
-    </message>
-    <message>
         <location filename="../qml/content/AboutPage.qml" line="147"/>
         <source>Donate or Contribute</source>
         <translation>Adományozás, hozzájárulás</translation>
-    </message>
-    <message>
-        <location filename="../qml/content/AboutPage.qml" line="66"/>
-        <source>ownKeepass is a Keepass 2 compatible password safe application</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="155"/>
@@ -133,8 +128,8 @@
     <name>ChangeLogPage</name>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="36"/>
-        <source>ownKeepass got updated</source>
-        <translation>Az ownKeepass frissítve lett.</translation>
+        <source>KeePassSF got updated</source>
+        <translation>Az KeePassSF frissítve lett.</translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="37"/>
@@ -537,8 +532,8 @@
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="126"/>
-        <source>ownKeepass Icon Pack</source>
-        <translation>ownKeepass ikonok</translation>
+        <source>KeePassSF Icon Pack</source>
+        <translation>KeePassSF ikonok</translation>
     </message>
 </context>
 <context>
@@ -555,13 +550,13 @@
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="95"/>
-        <source>ownKeepass Settings</source>
-        <translation>ownKeepass Beállítások</translation>
+        <source>KeePassSF Settings</source>
+        <translation>KeePassSF Beállítások</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="99"/>
-        <source>Change default settings of your ownKeepass application here</source>
-        <translation>Az ownKeepass alapértelmezett beállításainak megváltoztatása</translation>
+        <source>Change default settings of your KeePassSF application here</source>
+        <translation>Az KeePassSF alapértelmezett beállításainak megváltoztatása</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="103"/>
@@ -612,11 +607,6 @@
         <location filename="../qml/content/EditSettingsDialog.qml" line="358"/>
         <source>Language</source>
         <translation>Nyelv</translation>
-    </message>
-    <message>
-        <location filename="../qml/content/EditSettingsDialog.qml" line="359"/>
-        <source>Change of language will be active in ownKeepass after restarting the application</source>
-        <translation>Az új nyelvi beállítások az ownKeepass újbóli megnyitása után kerülnek érvénybe.</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="363"/>
@@ -735,6 +725,11 @@
         <location filename="../qml/content/EditSettingsDialog.qml" line="345"/>
         <source>Landscape</source>
         <translation>Tájkép</translation>
+    </message>
+    <message>
+        <location filename="../qml/content/EditSettingsDialog.qml" line="359"/>
+        <source>Change of language will be active in ownKeepass after restarting the application</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="505"/>
@@ -968,9 +963,9 @@
     <name>HelpCreateNewDatabase</name>
     <message>
         <location filename="../qml/help/HelpCreateNewDatabase.qml" line="28"/>
-        <source>On this page you can create a new database where ownKeepass will store your sensitive data.&lt;br&gt;&lt;br&gt;Open the file browser and choose a file name and a directory. You can choose to locate your database in device memory, on the SD card or in the Android Storage. If the SD card entry is grey then no SD card is inserted or the card is not correctly detected by the System. There should be only one formatted partition on the SD card. Currently multi-partition SD cards are not supported by ownKeepass. &quot;Android storage&quot; is there to share the database with Android Apps. However sharing files with the Android world can be annoying due to different file ownership and permissions. Please be aware of that.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;A key file can be used additionally to a master password to protect the Keepass database. Both are used together to generate a pass key which will open the database. So by using a file with lots of data inside the generated pass key becomes in principle stronger against attacks. You can use for example a random picture as key file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here goes the password for your new Keepass database. Please make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Password&quot; field.&lt;br&gt;&lt;br&gt;</source>
+        <source>On this page you can create a new database where KeePassSF will store your sensitive data.&lt;br&gt;&lt;br&gt;Open the file browser and choose a file name and a directory. You can choose to locate your database in device memory, on the SD card or in the Android Storage. If the SD card entry is grey then no SD card is inserted or the card is not correctly detected by the System. There should be only one formatted partition on the SD card. Currently multi-partition SD cards are not supported by KeePassSF. &quot;Android storage&quot; is there to share the database with Android Apps. However sharing files with the Android world can be annoying due to different file ownership and permissions. Please be aware of that.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;A key file can be used additionally to a master password to protect the Keepass database. Both are used together to generate a pass key which will open the database. So by using a file with lots of data inside the generated pass key becomes in principle stronger against attacks. You can use for example a random picture as key file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here goes the password for your new Keepass database. Please make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Password&quot; field.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Changed &quot;home drive on the phone&quot; to &quot;Device Memory&quot;, removed section for &quot;Open automatically&quot;</extracomment>
-        <translation>Ezen az oldalon hozhatsz létre új adatbázist, melyben a Keepass majd tárolni fogja az érzékeny adataidat.&lt;br&gt;&lt;br&gt;Nyisd meg a fájl böngészőt és válassz egy nevet és könyvtárat a fájlodnak. Megadhatod, hogy hova kerüljön az adatbázisod: az eszköz memóriába, az SD kártyára, vagy az Android tárhelyre. Amennyiben az SD kártya bejegyzés szürke, az azt jelenti, hogy a készülékbe nincs SD kártya behelyezve, vagy a kártyát nem ismeri fel megfelelően a rendszer. Az SD kártyának egyetlen, osztatlan formázott partíciót kell tartalmaznia. Jelenleg az ownKeepass nem támogatja a több partícióval rendelkező SD kártyákat. Az &quot;Android tárhely&quot; kiválasztása lehetővé teszi az adatbázis Androidos alkalmazásokkal történő megosztását. Mindazonáltal a fájlok Androiddal való megosztása frusztráló lehet az eltérő fájl tulajdonosi és engedélykezelési rendszer miatt. Erre legyél tekintettel.&lt;br&gt;&lt;br&gt;Jó tanács: amennyiben felhőbe kívánod feltölteni a Keepass adatbázisodat, bizonyosodj meg arról, hogy a mester jelszó mellé helyileg eltárolt kulcsfájlt is alkalmazol. Ezt a kulcsfájlt ne töltsd fel a felhőbe!&lt;br&gt;&lt;br&gt;&lt;b&gt;Kulcsfájl használata&lt;/b&gt;A mester jelszó mellé a Keepass adatbázis további védelméért kulcsfájlt is használhatunk. Ebben az esetben a kettő együttesen generál egy kulcsot, mely nyitni fogja az adatbázist. Ebből adódóan egy nagy mennyiségű adatot tartalmazó fájl kulcsfájlként való használata elvileg lényegesen ellenállóbb a támadásokkal szemben. Példa gyanánt egy tetszőleges kép is használható kulcsfájlként.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mester jelszó&lt;/b&gt;&lt;br&gt;&lt;br&gt;Itt adhatod meg az új Keepass adatbázis mester jelszavát. Lehetőség szerint minimum 10-15 karakter hosszú jelszót használj, kis- és nagybetűkkel, számokkal és speciális karakterekkel. Add meg ismét ezt a jelszót a &quot;Jelszó megerősítése&quot; mezőben.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Ezen az oldalon hozhatsz létre új adatbázist, melyben a Keepass majd tárolni fogja az érzékeny adataidat.&lt;br&gt;&lt;br&gt;Nyisd meg a fájl böngészőt és válassz egy nevet és könyvtárat a fájlodnak. Megadhatod, hogy hova kerüljön az adatbázisod: az eszköz memóriába, az SD kártyára, vagy az Android tárhelyre. Amennyiben az SD kártya bejegyzés szürke, az azt jelenti, hogy a készülékbe nincs SD kártya behelyezve, vagy a kártyát nem ismeri fel megfelelően a rendszer. Az SD kártyának egyetlen, osztatlan formázott partíciót kell tartalmaznia. Jelenleg az KeePassSF nem támogatja a több partícióval rendelkező SD kártyákat. Az &quot;Android tárhely&quot; kiválasztása lehetővé teszi az adatbázis Androidos alkalmazásokkal történő megosztását. Mindazonáltal a fájlok Androiddal való megosztása frusztráló lehet az eltérő fájl tulajdonosi és engedélykezelési rendszer miatt. Erre legyél tekintettel.&lt;br&gt;&lt;br&gt;Jó tanács: amennyiben felhőbe kívánod feltölteni a Keepass adatbázisodat, bizonyosodj meg arról, hogy a mester jelszó mellé helyileg eltárolt kulcsfájlt is alkalmazol. Ezt a kulcsfájlt ne töltsd fel a felhőbe!&lt;br&gt;&lt;br&gt;&lt;b&gt;Kulcsfájl használata&lt;/b&gt;A mester jelszó mellé a Keepass adatbázis további védelméért kulcsfájlt is használhatunk. Ebben az esetben a kettő együttesen generál egy kulcsot, mely nyitni fogja az adatbázist. Ebből adódóan egy nagy mennyiségű adatot tartalmazó fájl kulcsfájlként való használata elvileg lényegesen ellenállóbb a támadásokkal szemben. Példa gyanánt egy tetszőleges kép is használható kulcsfájlként.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mester jelszó&lt;/b&gt;&lt;br&gt;&lt;br&gt;Itt adhatod meg az új Keepass adatbázis mester jelszavát. Lehetőség szerint minimum 10-15 karakter hosszú jelszót használj, kis- és nagybetűkkel, számokkal és speciális karakterekkel. Add meg ismét ezt a jelszót a &quot;Jelszó megerősítése&quot; mezőben.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -993,22 +988,22 @@
     <name>HelpMainPage</name>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="27"/>
-        <source>ownKeepass is a password safe application for Sailfish devices with the purpose to protect sensible data like passwords for web pages, credit card numbers, PINs, TANs and other bits of information which should be kept secret. All that information is saved in a database file which is encrypted and stored locally on your phone. To open the database you need to know the master password of the database. ownKeepass uses a Keepass version 2 database. That means you can use Keepass [1] or KeepassXC [2] on your desktop system to decrypt and open that database file, too.</source>
+        <source>KeePassSF is a password safe application for Sailfish devices with the purpose to protect sensible data like passwords for web pages, credit card numbers, PINs, TANs and other bits of information which should be kept secret. All that information is saved in a database file which is encrypted and stored locally on your phone. To open the database you need to know the master password of the database. KeePassSF uses a Keepass version 2 database. That means you can use Keepass [1] or KeepassXC [2] on your desktop system to decrypt and open that database file, too.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="36"/>
-        <source>&lt;b&gt;Usage of help pages&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each page inside of ownKeepass has its own Help content. So please make use of it and learn about the features offered by ownKeepass.</source>
-        <translation>&lt;b&gt; A súgó oldalak használata &lt;/b&gt;&lt;br&gt;&lt;br&gt; Minden oldalnak az ownKeepass-on belül megvan a saját súgó tartalma. Így kérlek, vedd hasznát, hogy többet tudj meg az ownKeepass által felajánlott lehetőségekről.</translation>
+        <source>&lt;b&gt;Usage of help pages&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each page inside of KeePassSF has its own Help content. So please make use of it and learn about the features offered by KeePassSF.</source>
+        <translation>&lt;b&gt; A súgó oldalak használata &lt;/b&gt;&lt;br&gt;&lt;br&gt; Minden oldalnak az KeePassSF-on belül megvan a saját súgó tartalma. Így kérlek, vedd hasznát, hogy többet tudj meg az KeePassSF által felajánlott lehetőségekről.</translation>
     </message>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="41"/>
-        <source>&lt;b&gt;Some words about Keepass database security&lt;/b&gt;&lt;br&gt;&lt;br&gt;The database code in ownKeepass is based on the KeepassXC project [2] and as such contains a lot of security related features. It uses proven encryption algorithms like AES, Twofish or ChaCha20 and SHA-256 and Argon2 as hashing algorithms. Furthermore it protects the master password against Brute-Force and Dictonary Attacks by hashing and encrypting it before using it to decrypt the Keepass database. This feature is called key transformation rounds and can be adjusted in database settings. Anyway that all just adds additional security to two points which you should be aware of:&lt;br&gt;&lt;br&gt;(1) Always use a long enough and difficult to guess master password.&lt;br&gt;&lt;br&gt;(2) Protect your system from spyware which might be specialized to attack ownKeepass. The second is law #1 of the 10 Immutable Laws of Security: &quot;If a bad guy can persuade you to run his program on your computer, it&apos;s not your computer anymore&quot;.</source>
+        <source>&lt;b&gt;Some words about Keepass database security&lt;/b&gt;&lt;br&gt;&lt;br&gt;The database code in KeePassSF is based on the KeepassXC project [2] and as such contains a lot of security related features. It uses proven encryption algorithms like AES, Twofish or ChaCha20 and SHA-256 and Argon2 as hashing algorithms. Furthermore it protects the master password against Brute-Force and Dictonary Attacks by hashing and encrypting it before using it to decrypt the Keepass database. This feature is called key transformation rounds and can be adjusted in database settings. Anyway that all just adds additional security to two points which you should be aware of:&lt;br&gt;&lt;br&gt;(1) Always use a long enough and difficult to guess master password.&lt;br&gt;&lt;br&gt;(2) Protect your system from spyware which might be specialized to attack KeePassSF. The second is law #1 of the 10 Immutable Laws of Security: &quot;If a bad guy can persuade you to run his program on your computer, it&apos;s not your computer anymore&quot;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="58"/>
-        <source>&lt;b&gt;Sharing Keepass database between your Jolla Smartphone / Tablet and your desktop PC&lt;/b&gt;&lt;br&gt;&lt;br&gt;The Keepass database file format is perfect to share your password safe between different systems like smartphones, tablets, desktop PC and so on. That is because there are a lot of Keepass implementations available for those platforms. Have a look at the KeepassXC download page [3] to get a community developed Keepass version for the desktop PC.&lt;br&gt;You can share your Keepass database file via SD card or via a cloud service like ownCloud or Dropbox. When using a cloud server I would recommend to use a key file in addition to the master password. The additional key file will be used by ownKeepass to decrypt the database. Store this key file only locally on your smartphone and on your desktop PC. Do not upload it to the cloud service. If an attacker hacks your cloud service he will be left without the key file. By doing so you make it even harder for an attacker to crack your Keepass database because the key file content is usually impossible to guess.</source>
+        <source>&lt;b&gt;Sharing Keepass database between your Jolla Smartphone / Tablet and your desktop PC&lt;/b&gt;&lt;br&gt;&lt;br&gt;The Keepass database file format is perfect to share your password safe between different systems like smartphones, tablets, desktop PC and so on. That is because there are a lot of Keepass implementations available for those platforms. Have a look at the KeepassXC download page [3] to get a community developed Keepass version for the desktop PC.&lt;br&gt;You can share your Keepass database file via SD card or via a cloud service like ownCloud or Dropbox. When using a cloud server I would recommend to use a key file in addition to the master password. The additional key file will be used by KeePassSF to decrypt the database. Store this key file only locally on your smartphone and on your desktop PC. Do not upload it to the cloud service. If an attacker hacks your cloud service he will be left without the key file. By doing so you make it even harder for an attacker to crack your Keepass database because the key file content is usually impossible to guess.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1016,9 +1011,9 @@
     <name>HelpOpenNewDatabase</name>
     <message>
         <location filename="../qml/help/HelpOpenNewDatabase.qml" line="28"/>
-        <source>Here you can open an existing Keepass database file.&lt;br&gt;&lt;br&gt;Use the file browser to search for your Keepass database file. You will be able to look into the following locations: Device Memory, SD card and Android storage. If you have trouble with ownKeepass not finding the file please make sure to place it in below mentioned paths. &quot;Device Memory&quot; is located at &quot;%1&quot;. If a SD card is inserted in your phone it is located at &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Please note that SD cards with more than one partition are not supported.) &quot;Android storage&quot; is located at &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you need a key file for opening your Keepass database please check this option.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Type in here the password for your Keepass database.&lt;br&gt;&lt;br&gt;</source>
+        <source>Here you can open an existing Keepass database file.&lt;br&gt;&lt;br&gt;Use the file browser to search for your Keepass database file. You will be able to look into the following locations: Device Memory, SD card and Android storage. If you have trouble with KeePassSF not finding the file please make sure to place it in below mentioned paths. &quot;Device Memory&quot; is located at &quot;%1&quot;. If a SD card is inserted in your phone it is located at &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Please note that SD cards with more than one partition are not supported.) &quot;Android storage&quot; is located at &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you need a key file for opening your Keepass database please check this option.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Type in here the password for your Keepass database.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Removed one sentence in section &quot;Use key file&quot;, Changed &quot;Home&quot; to &quot;Device Memory&quot;, Removed section for &quot;Open automatically&quot;, changed &lt;UUID&gt; to &amp;lt;UUID&amp;gt; so that it will be actually shown ;)</extracomment>
-        <translation>Itt egy már létező Keepass adatbázis file-t nyithatsz meg. &lt;br&gt;&lt;br&gt;Használd a filekezelőt a Keepass adatbázis file-od kereséséhez. A következő helyeken találhatod meg: Készülék memóriája, SD kártya vagy Android tárhely. Ha problémád akadt és az ownKeepass nem találja a file-t, ellenőrizd, hogy a fent említett helyeken van. &quot;Készülék memőria&quot; az &quot;%1&quot; helyen van. Ha SD kártya van a telefonodban, az a következő helyen van: &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Egynél több partícióval rendelkező SD kártyák nem támogatottak!) Az &quot;Android tárhely&quot; a következő helyen van: &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Jótanács: ha feltöltöd felhőbe a Keepass adatbázisodat, akkor legyél biztos benne, hogy egy helyben (a telefonodon) tárolt kulcsfile-t is használsz a mester jelszó mellett! Ezt a kulcsfile-t nem szabad feltölteni a felhőbe.&lt;br&gt;&lt;br&gt;&lt;b&gt;Kulcsfile használata&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ha kulcsfile-ra van szükséged a Keepass adatbázisod megnyitásához, jelöld be ezt az opciót.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mester jelszó&lt;/b&gt;&lt;br&gt;&lt;br&gt;Írd ide a Keepass adatbázis jelszavadat.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Itt egy már létező Keepass adatbázis file-t nyithatsz meg. &lt;br&gt;&lt;br&gt;Használd a filekezelőt a Keepass adatbázis file-od kereséséhez. A következő helyeken találhatod meg: Készülék memóriája, SD kártya vagy Android tárhely. Ha problémád akadt és az KeePassSF nem találja a file-t, ellenőrizd, hogy a fent említett helyeken van. &quot;Készülék memőria&quot; az &quot;%1&quot; helyen van. Ha SD kártya van a telefonodban, az a következő helyen van: &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Egynél több partícióval rendelkező SD kártyák nem támogatottak!) Az &quot;Android tárhely&quot; a következő helyen van: &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Jótanács: ha feltöltöd felhőbe a Keepass adatbázisodat, akkor legyél biztos benne, hogy egy helyben (a telefonodon) tárolt kulcsfile-t is használsz a mester jelszó mellett! Ezt a kulcsfile-t nem szabad feltölteni a felhőbe.&lt;br&gt;&lt;br&gt;&lt;b&gt;Kulcsfile használata&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ha kulcsfile-ra van szükséged a Keepass adatbázisod megnyitásához, jelöld be ezt az opciót.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mester jelszó&lt;/b&gt;&lt;br&gt;&lt;br&gt;Írd ide a Keepass adatbázis jelszavadat.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -1122,116 +1117,116 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="281"/>
+        <location filename="../qml/content/MainPage.qml" line="278"/>
         <source>Problem with SD card</source>
         <translation>Gond adódott az SD kártyával</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="282"/>
+        <location filename="../qml/content/MainPage.qml" line="279"/>
         <source>SD cards with multiple partitions are not supported.</source>
         <translation>A több partícióval is rendelkező SD kártyák nem támogatottak.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="322"/>
+        <location filename="../qml/content/MainPage.qml" line="319"/>
         <source>Create new database</source>
         <translation>Új adatbázis létrehozása</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="338"/>
+        <location filename="../qml/content/MainPage.qml" line="335"/>
         <source>Open database</source>
         <translation>Adatbázis megnyitása</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="365"/>
+        <location filename="../qml/content/MainPage.qml" line="362"/>
         <source>Password Safe</source>
         <translation>Jelszó Széf</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="465"/>
+        <location filename="../qml/content/MainPage.qml" line="462"/>
         <source>Type in a master password for locking your new Keepass Password Safe:</source>
         <translation>Adj meg egy mester jelszót az új Keepass Jelszó Széfedhez:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="472"/>
+        <location filename="../qml/content/MainPage.qml" line="469"/>
         <source>Path and name for new database</source>
         <extracomment>This is on the first page. The user has not yet created any Keepass databases. It gives the info where the new default database will be created.</extracomment>
         <translation>Új adatbázis elérési útvonala és neve</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="485"/>
+        <location filename="../qml/content/MainPage.qml" line="482"/>
         <source>Path and name of database</source>
         <extracomment>This is on the first page where the user inputs the master password of his Keepass database.</extracomment>
         <translation>Adatbázis elérési útvonala és neve</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="645"/>
+        <location filename="../qml/content/MainPage.qml" line="642"/>
         <source>Permission error</source>
         <translation>Jogosultsági hiba</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="645"/>
+        <location filename="../qml/content/MainPage.qml" line="642"/>
         <source>Cannot create path for your Keepass database file. You may need to set directory permissions for user &apos;nemo&apos;.</source>
         <translation>A Keepass adatbázis fájl nem elérhető. Elképzelhető, hogy a &apos;nemo&apos; nevű felhasználó számára be kell állítanod a mappa-jogosultságokat.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="650"/>
-        <location filename="../qml/content/MainPage.qml" line="667"/>
+        <location filename="../qml/content/MainPage.qml" line="647"/>
+        <location filename="../qml/content/MainPage.qml" line="664"/>
         <source>Key file error</source>
         <translation>Kulcsfájl hiba.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="650"/>
-        <location filename="../qml/content/MainPage.qml" line="667"/>
+        <location filename="../qml/content/MainPage.qml" line="647"/>
+        <location filename="../qml/content/MainPage.qml" line="664"/>
         <source>Database path is ok, but your key file is not present. Please check path to key file:</source>
         <translation>Az adatbázis elérési útja helyes, ám a kulcsfájl nem található. Ellenőrizd a kulcsfájlt:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="655"/>
+        <location filename="../qml/content/MainPage.qml" line="652"/>
         <source>Database file already exists</source>
         <translation>Az adatbázis fájl már létezik</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="655"/>
+        <location filename="../qml/content/MainPage.qml" line="652"/>
         <source>Please specify another path and name for your Keepass database or delete the old database within a file browser.</source>
         <translation>Kérjük adjon meg egy másik elérési utat és nevet a Keepass adatbázis részére, vagy fájlkezelőből töröld a régit.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="672"/>
+        <location filename="../qml/content/MainPage.qml" line="669"/>
         <source>Database file error</source>
         <translation>Adatbázis fájlhiba</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="672"/>
+        <location filename="../qml/content/MainPage.qml" line="669"/>
         <source>Database file does not exist. Please check path to database file:</source>
         <translation>Az adatbázis állomány nem létezik. Kérjük ellenőrizze az adatbázis fájl elérési útját:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="167"/>
+        <location filename="../qml/content/MainPage.qml" line="164"/>
         <source>Database file</source>
         <translation>Adatbázis fájl</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="168"/>
+        <location filename="../qml/content/MainPage.qml" line="165"/>
         <source>The specified file is not a Keepass database.</source>
         <translation>A megadott fájl nem Keepass adatbázis.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="174"/>
-        <location filename="../qml/content/MainPage.qml" line="239"/>
+        <location filename="../qml/content/MainPage.qml" line="171"/>
+        <location filename="../qml/content/MainPage.qml" line="236"/>
         <source>Database version</source>
         <translation>Adatbázis verzió</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="175"/>
+        <location filename="../qml/content/MainPage.qml" line="172"/>
         <source>The specified file has an unsupported Keepass database version.</source>
         <translation>A megadott fájl a Keepass adatbázis egy nem támogatott verziójával készült.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="135"/>
-        <location filename="../qml/content/MainPage.qml" line="153"/>
-        <location filename="../qml/content/MainPage.qml" line="181"/>
-        <location filename="../qml/content/MainPage.qml" line="202"/>
-        <location filename="../qml/content/MainPage.qml" line="234"/>
+        <location filename="../qml/content/MainPage.qml" line="132"/>
+        <location filename="../qml/content/MainPage.qml" line="150"/>
+        <location filename="../qml/content/MainPage.qml" line="178"/>
+        <location filename="../qml/content/MainPage.qml" line="199"/>
+        <location filename="../qml/content/MainPage.qml" line="231"/>
         <source>Internal database error</source>
         <translation>Belső adatbázis hiba</translation>
     </message>
@@ -1271,107 +1266,107 @@
         <translation>Nem lehet betöltött adatbázishoz csatlakozni. Ez programhibának tűnik.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="148"/>
+        <location filename="../qml/content/MainPage.qml" line="145"/>
         <source>The following error occured during creation of the key for the database:</source>
         <translation>Az adatbázis kulcsának generálásakor a következő hiba lépett fel:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="182"/>
+        <location filename="../qml/content/MainPage.qml" line="179"/>
         <source>Database headers are missing.</source>
         <translation>Az adatbázis-fejlécek hiányoznak</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="188"/>
-        <location filename="../qml/content/MainPage.qml" line="195"/>
+        <location filename="../qml/content/MainPage.qml" line="185"/>
+        <location filename="../qml/content/MainPage.qml" line="192"/>
         <source>Wrong password</source>
         <translation>Hibás jelszó</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="189"/>
+        <location filename="../qml/content/MainPage.qml" line="186"/>
         <source>Either your master password is wrong or the database file is corrupt. Please try again.</source>
         <translation>A mester jelszava hibás, vagy az adatbázis állomány sérült. Kérjük próbálja újra.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="196"/>
+        <location filename="../qml/content/MainPage.qml" line="193"/>
         <source>Either your master password is wrong or your key file is wrong. Please try again. If the error persists then either key file or database file is corrupt.</source>
         <translation>Hibás a mester jelszava, vagy a kulcsfájl. Kérjük próbálja újra. Amennyiben a hiba továbbra is fennáll, úgy vagy a kulcsfájl, vagy az adatbázis állomány sérült.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="203"/>
+        <location filename="../qml/content/MainPage.qml" line="200"/>
         <source>Database head doesn&apos;t match corresponding hash value.</source>
         <translation>Az adatbázis nem egyezik meg a hozzá tartozó ellenőrző-összeggel.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="209"/>
-        <location filename="../qml/content/MainPage.qml" line="216"/>
+        <location filename="../qml/content/MainPage.qml" line="206"/>
+        <location filename="../qml/content/MainPage.qml" line="213"/>
         <source>File I/O error</source>
         <translation>Fájl I/O hiba</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="210"/>
+        <location filename="../qml/content/MainPage.qml" line="207"/>
         <source>Cannot open database file. Error details:</source>
         <translation>Az adatbázis állomány nem nyitható meg. A hiba részletei:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="217"/>
+        <location filename="../qml/content/MainPage.qml" line="214"/>
         <source>Cannot open key file. Error details:</source>
         <translation>A kulcsfájl nem nyitható meg. A hiba részletei:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="223"/>
-        <location filename="../qml/content/MainPage.qml" line="229"/>
+        <location filename="../qml/content/MainPage.qml" line="220"/>
+        <location filename="../qml/content/MainPage.qml" line="226"/>
         <source>Internal Error</source>
         <translation>Belső hiba</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="224"/>
+        <location filename="../qml/content/MainPage.qml" line="221"/>
         <source>Something went wrong with dropping the database from the recent database list. That shouldn&apos;t happen. Please let me (the developer) know about that via email or at github. Thanks!</source>
         <translation>Valami félresikerült az adatbázis aktuális listából való kiejtése közben. Ez nem kellett volna, hogy megtörténjen. Kérlek, értesíts (engem, a fejlesztőt) erről e-mailen vagy github-on. Köszönöm!</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="230"/>
+        <location filename="../qml/content/MainPage.qml" line="227"/>
         <source>Something went wrong while trying to delete the database file. Error message:</source>
         <translation>Valami félresikerült az adatbázis törlése közben. Hibaüzenet:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="245"/>
+        <location filename="../qml/content/MainPage.qml" line="242"/>
         <source>Unknown error</source>
         <translation>ismeretlen hiba</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="737"/>
+        <location filename="../qml/content/MainPage.qml" line="734"/>
         <source>Password changed</source>
         <translation>A jelszó megváltozott</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="737"/>
+        <location filename="../qml/content/MainPage.qml" line="734"/>
         <source>The master password of your database was changed successfully.</source>
         <translation>Az adatbázishoz tartozó mester jelszó sikeresen meg lett változtatva.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="147"/>
+        <location filename="../qml/content/MainPage.qml" line="144"/>
         <source>Internal key error</source>
         <translation>Belső kulcs hiba</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="101"/>
-        <location filename="../qml/content/MainPage.qml" line="251"/>
-        <location filename="../qml/content/MainPage.qml" line="257"/>
+        <location filename="../qml/content/MainPage.qml" line="248"/>
+        <location filename="../qml/content/MainPage.qml" line="254"/>
         <source>Error loading database</source>
         <translation>Hiba az adatbázis betöltése közben</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="141"/>
+        <location filename="../qml/content/MainPage.qml" line="138"/>
         <source>Internal file error</source>
         <translation>Belső fájl hiba</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="142"/>
+        <location filename="../qml/content/MainPage.qml" line="139"/>
         <source>The following error occured during creation of database:</source>
         <translation>Az adatbázis létrehozásakor a következő hiba történt:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="154"/>
+        <location filename="../qml/content/MainPage.qml" line="151"/>
         <source>Creation of backup group failed with following error:</source>
         <translation>Hiba a tartalék csoport létrehozása közben:</translation>
     </message>
@@ -1386,72 +1381,72 @@
         <translation>Az adatbázis mentése nem sikerült a következő hiba miatt:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="136"/>
+        <location filename="../qml/content/MainPage.qml" line="133"/>
         <source>An error occured on closing your database:</source>
         <translation>Hiba történt az adatbázis bezárásakor:</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="160"/>
+        <location filename="../qml/content/MainPage.qml" line="157"/>
         <source>Crypto init error</source>
         <translation>Titkosítás inicializálási hiba</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="161"/>
+        <location filename="../qml/content/MainPage.qml" line="158"/>
         <source>Cryptographic algorithms could not be initialized successfully. The database is closed again to prevent any attack. Please try to reopen the app. If the error persists please contact the developer.</source>
         <translation>A titkosító algoritmus inicializálása nem sikerült. Az adatbázis le lett zárva, megelőzendő egy esetleges támadást. Kérjük próbálja meg ismét megnyitni ezt a programot. Amennyiben a hiba fennáll, lépjen kapcsolatba az alkalmazás fejlesztőjével.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="235"/>
+        <location filename="../qml/content/MainPage.qml" line="232"/>
         <source>Conversion of QString &quot;%1&quot; to Int failed</source>
         <translation>A &quot;%1&quot; QString Int-re való konverziója sikertelen</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="252"/>
+        <location filename="../qml/content/MainPage.qml" line="249"/>
         <source>File %1 does not exist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="258"/>
+        <location filename="../qml/content/MainPage.qml" line="255"/>
         <source>Unable to open file %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1117"/>
+        <location filename="../qml/content/MainPage.qml" line="1114"/>
         <source>Drop from List</source>
         <translation>Kiejtés a listából</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1195"/>
+        <location filename="../qml/content/MainPage.qml" line="1192"/>
         <source>Yes</source>
         <translation>Igen</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1196"/>
+        <location filename="../qml/content/MainPage.qml" line="1193"/>
         <source>No</source>
         <translation>Nem</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1197"/>
+        <location filename="../qml/content/MainPage.qml" line="1194"/>
         <source>Unsaved changes</source>
         <translation>Elmentetlen változások</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1242"/>
+        <location filename="../qml/content/MainPage.qml" line="1239"/>
         <source>Do you want to save changes to the password entry?</source>
         <translation>El szeretnéd menteni a jelszó-bejegyzés módosításait?</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1247"/>
+        <location filename="../qml/content/MainPage.qml" line="1244"/>
         <source>Do you want to save changes to the password group?</source>
         <translation>El szeretnéd menteni a jelszó csoport módosításait?</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1252"/>
+        <location filename="../qml/content/MainPage.qml" line="1249"/>
         <source>Do you want to save changes to database settings?</source>
         <translation>El szeretnéd menteni az adatbázis módosításait?</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1257"/>
+        <location filename="../qml/content/MainPage.qml" line="1254"/>
         <source>Do you want to save changed settings values?</source>
         <translation>El szeretnéd mondani a beállítások módosításait?</translation>
     </message>

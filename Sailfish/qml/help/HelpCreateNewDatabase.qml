@@ -3,20 +3,20 @@
 ** Copyright (C) 2013-2015 Marko Koschak (marko.koschak@tisno.de)
 ** All rights reserved.
 **
-** This file is part of ownKeepass.
+** This file is part of KeePassSF.
 **
-** ownKeepass is free software: you can redistribute it and/or modify
+** KeePassSF is free software: you can redistribute it and/or modify
 ** it under the terms of the GNU General Public License as published by
 ** the Free Software Foundation, either version 2 of the License, or
 ** (at your option) any later version.
 **
-** ownKeepass is distributed in the hope that it will be useful,
+** KeePassSF is distributed in the hope that it will be useful,
 ** but WITHOUT ANY WARRANTY; without even the implied warranty of
 ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ** GNU General Public License for more details.
 **
 ** You should have received a copy of the GNU General Public License
-** along with ownKeepass. If not, see <http://www.gnu.org/licenses/>.
+** along with KeePassSF. If not, see <http://www.gnu.org/licenses/>.
 **
 ***************************************************************************/
 
@@ -25,12 +25,12 @@ import Sailfish.Silica 1.0
 
 HelpPage {
     //: Changed "home drive on the phone" to "Device Memory", removed section for "Open automatically"
-    text: qsTr("On this page you can create a new database where ownKeepass will store your sensitive data.<br><br>\
+    text: qsTr("On this page you can create a new database where KeePassSF will store your sensitive data.<br><br>\
 \
 Open the file browser and choose a file name and a directory. You can choose to locate your database in device memory, \
 on the SD card or in the Android Storage. If the SD card entry is grey then no SD \
 card is inserted or the card is not correctly detected by the System. There should be only one \
-formatted partition on the SD card. Currently multi-partition SD cards are not supported by ownKeepass. \
+formatted partition on the SD card. Currently multi-partition SD cards are not supported by KeePassSF. \
 \"Android storage\" is there to share the database with Android Apps. \
 However sharing files with the Android world can be annoying due to different file ownership and permissions. \
 Please be aware of that.<br><br>\

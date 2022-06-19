@@ -3,20 +3,20 @@
 ** Copyright (C) 2013-2014 Marko Koschak (marko.koschak@tisno.de)
 ** All rights reserved.
 **
-** This file is part of ownKeepass.
+** This file is part of KeePassSF.
 **
-** ownKeepass is free software: you can redistribute it and/or modify
+** KeePassSF is free software: you can redistribute it and/or modify
 ** it under the terms of the GNU General Public License as published by
 ** the Free Software Foundation, either version 2 of the License, or
 ** (at your option) any later version.
 **
-** ownKeepass is distributed in the hope that it will be useful,
+** KeePassSF is distributed in the hope that it will be useful,
 ** but WITHOUT ANY WARRANTY; without even the implied warranty of
 ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ** GNU General Public License for more details.
 **
 ** You should have received a copy of the GNU General Public License
-** along with ownKeepass. If not, see <http://www.gnu.org/licenses/>.
+** along with KeePassSF. If not, see <http://www.gnu.org/licenses/>.
 **
 ***************************************************************************/
 
@@ -29,7 +29,7 @@ HelpPage {
 \
 Use the file browser to search for your Keepass database file. You will be able to look into the \
 following locations: Device Memory, SD card and Android storage. If you have trouble \
-with ownKeepass not finding the file please make sure to place it in below mentioned paths. \
+with KeePassSF not finding the file please make sure to place it in below mentioned paths. \
 \"Device Memory\" is located at \"%1\". If a SD card is inserted in your phone it is located at \"/media/sdcard/&lt;UUID&gt;\". \
 (Please note that SD cards with more than one partition are not supported.) \"Android storage\" \
 is located at \"%2\".<br><br>\

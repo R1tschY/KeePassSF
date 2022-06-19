@@ -3,20 +3,20 @@
 ** Copyright (C) 2013 - 2015 Marko Koschak (marko.koschak@tisno.de)
 ** All rights reserved.
 **
-** This file is part of ownKeepass.
+** This file is part of KeePassSF.
 **
-** ownKeepass is free software: you can redistribute it and/or modify
+** KeePassSF is free software: you can redistribute it and/or modify
 ** it under the terms of the GNU General Public License as published by
 ** the Free Software Foundation, either version 2 of the License, or
 ** (at your option) any later version.
 **
-** ownKeepass is distributed in the hope that it will be useful,
+** KeePassSF is distributed in the hope that it will be useful,
 ** but WITHOUT ANY WARRANTY; without even the implied warranty of
 ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ** GNU General Public License for more details.
 **
 ** You should have received a copy of the GNU General Public License
-** along with ownKeepass. If not, see <http://www.gnu.org/licenses/>.
+** along with KeePassSF. If not, see <http://www.gnu.org/licenses/>.
 **
 ***************************************************************************/
 
@@ -24,7 +24,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import "../common"
 import "../scripts/Global.js" as Global
-import harbour.ownkeepass 1.0
+import harbour.keepasssf 1.0
 
 Dialog {
     id: queryPasswordDialog
@@ -42,7 +42,7 @@ Dialog {
     property alias keyFileLocation: keyLoading.locationIndex
     property alias keyFilePath: keyLoading.relativePath
 
-    // Password is only going out and will be passed to ownKeepass database interface to open the database
+    // Password is only going out and will be passed to KeePassSF database interface to open the database
     property string password: ""
 
     acceptDestination: Qt.resolvedUrl("GroupsAndEntriesPage.qml").toString()

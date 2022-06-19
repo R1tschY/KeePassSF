@@ -1,69 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja_JP">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="47"/>
-        <source>About ownKeepass</source>
-        <translation>ownKeepassについて</translation>
+        <source>About KeePassSF</source>
+        <translation>À propos d&apos;KeePassSF</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="48"/>
         <source>Password Safe</source>
-        <translation>Password Safe</translation>
+        <translation>Gestionnaire de mots de passe</translation>
+    </message>
+    <message>
+        <location filename="../qml/content/AboutPage.qml" line="66"/>
+        <source>KeePassSF is a KeePass 2 compatible password safe application</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="74"/>
         <source>Version</source>
-        <translation>バージョン</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="96"/>
         <source>Email</source>
-        <translation>メール</translation>
+        <translation>Email</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="102"/>
         <location filename="../qml/content/AboutPage.qml" line="134"/>
         <source>License</source>
-        <translation>ライセンス</translation>
+        <translation>License</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="109"/>
-        <source>ownKeepass is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
-        <translation>ownKeepassはGNU General Public License (GPL) version 2 あるいは(あなたの選択として) version 3 に基づいて頒布されています。</translation>
+        <source>KeePassSF is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
+        <translation>KeePassSF est distribué conformément aux règles de Licence Publique Générale GNU (GPL) version 2 ou (au choix) version 3.</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="141"/>
         <source>Change log</source>
-        <translation>変更履歴</translation>
+        <translation>Historique des modifications</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="190"/>
         <source>Credits</source>
-        <translation>クレジット</translation>
+        <translation>Crédits</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="198"/>
         <source>My best appreciations go to:</source>
-        <translation>私の最高の謝意を送ります:</translation>
+        <translation>Mes plus profonds remerciements s&apos;adressent à : </translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="199"/>
         <source>Jolla (for continuing where Nokia stopped)</source>
-        <translation>Jolla (for continuing where Nokia stopped)</translation>
+        <translation>Jolla (pour continuer là où Nokia s&apos;est arrêté)</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="200"/>
-        <source>The KeepassX project (for a Qt implementation of Keepass)</source>
-        <translation>KeepassX プロジェクト (KeepassのQt実装)</translation>
+        <source>The KeepassXC project (for a Qt implementation of Keepass)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="202"/>
-        <source>And finally many thanks to all translators on %1 and contributors on %2 (for keeping me motivated to work on ownKeepass)</source>
+        <source>And finally many thanks to all translators on %1 and contributors on %2</source>
         <extracomment>%1 and %2 are placeholders for links to the project on transifex and github</extracomment>
-        <translation>そして最後に(私のownKeepass開発のモチベーションを維持させている)全ての%1の翻訳者と%2の開発協力者に感謝します。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="205"/>
@@ -73,37 +78,27 @@
     <message>
         <location filename="../qml/content/AboutPage.qml" line="209"/>
         <source>Alphabetical list of all translators:</source>
-        <translation>翻訳者(アルファベット順)</translation>
-    </message>
-    <message>
-        <location filename="../qml/content/AboutPage.qml" line="256"/>
-        <source>I hope you have as much fun using ownKeepass as I have creating it!</source>
-        <translation>私がこれを開発するのと同じぐらい、みなさんがこのownKeepassを楽しく使ってくれることを願っています</translation>
+        <translation>Liste alphabétique des traducteurs : </translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="147"/>
         <source>Donate or Contribute</source>
-        <translation>寄付と援助</translation>
-    </message>
-    <message>
-        <location filename="../qml/content/AboutPage.qml" line="66"/>
-        <source>ownKeepass is a Keepass 2 compatible password safe application</source>
-        <translation type="unfinished"></translation>
+        <translation>Faire un don ou contribuer</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="155"/>
         <source>If you like my work feel free to show me your gratitude. Work on a translation, issue a bug report or improvement idea, send me a café or just like my app and talk about it in the Jolla store :)</source>
-        <translation>もし私の業績を気に入っていただけたなら、気軽に謝意を示してください。翻訳、バグレポートや改善案の提示、私にコーヒーを送ったり、Jollaストアで私のアプリの良さについて語ってください (^^)</translation>
+        <translation>Si vous aimez mon travail, n&apos;hésitez pas à montrer votre gratitude. Faites une traduction, émettez un rapport de bug ou une idée d&apos;amélioration, payez-moi un café ou tout simplement appréciez mon application et parlez-en :)</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="170"/>
         <source>Translate</source>
-        <translation>翻訳</translation>
+        <translation>Traduire</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="177"/>
         <source>Report bugs</source>
-        <translation>バグの報告</translation>
+        <translation>Annonce de bugs</translation>
     </message>
 </context>
 <context>
@@ -111,45 +106,45 @@
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="40"/>
         <source>Add Additional Attribute</source>
-        <translation>追加属性の追加</translation>
+        <translation>Ajouter un Attribut Additionnel</translation>
     </message>
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="45"/>
         <source>About</source>
-        <translation>ownKeepassについて</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="52"/>
         <source>Help</source>
-        <translation>ヘルプ</translation>
+        <translation>Aide</translation>
     </message>
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="59"/>
         <source>Settings</source>
-        <translation>設定</translation>
+        <translation>Paramètres</translation>
     </message>
 </context>
 <context>
     <name>ChangeLogPage</name>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="36"/>
-        <source>ownKeepass got updated</source>
-        <translation>ownKeepassはアップデートされました</translation>
+        <source>KeePassSF got updated</source>
+        <translation>KeePassSF a été mis à jour</translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="37"/>
         <source>New version %1 now installed on your phone. Have a look in the change log for details.</source>
-        <translation>新バージョン %1 がインストールされました。詳細はChange Logで確認できます。</translation>
+        <translation>Nouvelle version %1 installée. Consulter l&apos;historique des modifications pour les détails. </translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="57"/>
         <source>Password Safe</source>
-        <translation>Password Safe</translation>
+        <translation>Gestionnaire de mots de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="65"/>
         <source>Change log</source>
-        <translation>変更履歴</translation>
+        <translation>Historique des modifications</translation>
     </message>
 </context>
 <context>
@@ -157,77 +152,77 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="48"/>
         <source>Username copied into clipboard</source>
-        <translation>ユーザ名がクリップボードにコピーされました</translation>
+        <translation>Nom d&apos;utilisateur copié dans le presse-papiers</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="59"/>
         <source>Password copied into clipboard</source>
-        <translation>パスワードがクリップボードにコピーされました</translation>
+        <translation>Mot de passe copié dans le presse-papiers</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="69"/>
         <source>Clipboard now empty</source>
-        <translation>クリップボードは空です</translation>
+        <translation>Presse-papier vide</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="187"/>
         <source>Username</source>
-        <translation>ユーザ名</translation>
+        <translation>Nom d&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="187"/>
         <source>No username</source>
-        <translation>ユーザ名がありません</translation>
+        <translation>Aucun nom d&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="213"/>
         <source>Password</source>
-        <translation>パスワード</translation>
+        <translation>Mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="213"/>
         <source>No password</source>
-        <translation>パスワードがありません</translation>
+        <translation>Aucun mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="302"/>
         <source>No database opened</source>
-        <translation>開かれているデータベースはありません</translation>
+        <translation>Aucune base de données ouverte</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="309"/>
         <source>Create new database</source>
-        <translation>新規データベース作成</translation>
+        <translation>Créer une nouvelle base de données</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="316"/>
         <source>Open database</source>
-        <translation>データベースを開く</translation>
+        <translation>Ouvrir base de données</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="323"/>
         <source>Database is locked</source>
-        <translation>データベースはロックされています</translation>
+        <translation>Base de données verrouillée</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="330"/>
         <source>You have unsaved changes pending</source>
-        <translation>保留中の未保存の変更があります。</translation>
+        <translation>Vous avez des modifications non sauvegardées en attente</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="337"/>
         <source>View password group</source>
-        <translation>パスワードグループを表示する</translation>
+        <translation>Voir le groupe de mots de passe</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="344"/>
         <source>Search for password entries</source>
-        <translation>パスワードエントリを検索</translation>
+        <translation>Rechercher un de mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="363"/>
         <source>Username and password are hidden</source>
-        <translation>ユーザ名とパスワードを隠す</translation>
+        <translation>Nom d&apos;utilisateur et mot de passe sont cachés</translation>
     </message>
 </context>
 <context>
@@ -235,32 +230,32 @@
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="46"/>
         <source>Read only mode</source>
-        <translation>リードオンリーモード</translation>
+        <translation>Mode lecture seule</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="52"/>
         <source>Hide search</source>
-        <translation>検索を隠す</translation>
+        <translation>Cacher la recherche</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="52"/>
         <source>Show search</source>
-        <translation>検索を表示する</translation>
+        <translation>Montrer la recherche</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="61"/>
         <source>Database settings</source>
-        <translation>データベースの設定</translation>
+        <translation>Paramètres de la base de données</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="70"/>
         <source>New password group</source>
-        <translation>新規パスワードグループ</translation>
+        <translation>Nouveau groupe de mots de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="79"/>
         <source>New password entry</source>
-        <translation>新規パスワードエントリ</translation>
+        <translation>Nouvelle saisie de mot de passe</translation>
     </message>
 </context>
 <context>
@@ -268,58 +263,58 @@
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="88"/>
         <source>Database Settings</source>
-        <translation>データベースの設定</translation>
+        <translation>Paramètres de la base de données</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="86"/>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation>Enregistrer</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="87"/>
         <source>Discard</source>
-        <translation>破棄</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="92"/>
         <source>Change settings of your currently opened Keepass database here</source>
-        <translation>現在開いているデータベースの設定を変更する</translation>
+        <translation>Modifier ici les paramètres de votre base de données Keepass ouverte</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="100"/>
         <source>Note: By changing the master password here, you will need to remember it next time when opening the Keepass database!</source>
-        <translation>注釈：ここでマスターパスワードを変更すると、次回以降データベースを開く際にはこのパスワードが必要になります。</translation>
+        <translation>Remarque : en modifiant le mot de passe principal ici, vous devrez vous en souvenir lorsque vous ouvrirez la base de données Keepass !</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="110"/>
         <source>Master password</source>
-        <translation>マスターパスワード</translation>
+        <translation>Mot de passe principal</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="113"/>
         <source>Change master password</source>
-        <translation>マスターパスワード変更</translation>
+        <translation>Changer le mot de passe principal</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="138"/>
         <source>Master password confirmed</source>
-        <translation>マスターパスワードが確認されました</translation>
+        <translation>Mot de passe principal confirmé</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="138"/>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="141"/>
         <source>Confirm master password</source>
-        <translation>マスターパスワードを確認</translation>
+        <translation>Confirmer le mot de passe principal</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="156"/>
         <source>Encryption currently in use:</source>
-        <translation>現在使用中の暗号方式：</translation>
+        <translation>Chiffrement en cours d&apos;utilisation :</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="175"/>
         <source>Key derivation function in use:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonction de dérivation des clés utilisée :</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="179"/>
@@ -329,12 +324,12 @@
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="201"/>
         <source>Key transformation rounds</source>
-        <translation>Key transformation rounds</translation>
+        <translation>Cycles de transformation de la clé</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="215"/>
         <source>Setting this value higher increases opening time of the Keepass database but makes it more robust against brute force attacks</source>
-        <translation>この値を高く設定するとデータベースを開くのに時間がかかるようになりますが、Brute Force攻撃に対して強くなります。</translation>
+        <translation>En augmentant cette valeur, vous augmentez le délai d&apos;ouverture de la base de données Keepass mais vous la rendez plus robuste contre les attaques par force brute.</translation>
     </message>
 </context>
 <context>
@@ -342,32 +337,32 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="77"/>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation>Enregistrer</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="78"/>
         <source>Discard</source>
-        <translation>破棄</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="84"/>
         <source>Change icon</source>
-        <translation>アイコンを変更</translation>
+        <translation>Modifier l&apos;icône</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="131"/>
         <source>Change password entry details</source>
-        <translation>エントリの詳細情報を変更</translation>
+        <translation>Modifier les détails du mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="138"/>
         <source>Title</source>
-        <translation>タイトル</translation>
+        <translation>Titre</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="140"/>
         <source>Set title (mandatory)</source>
-        <translation>タイトル設定(必須)</translation>
+        <translation>Définir le titre (obligatoire)</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="157"/>
@@ -377,54 +372,54 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="159"/>
         <source>Set URL</source>
-        <translation>URL設定</translation>
+        <translation>Définir URL</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="173"/>
         <source>Username</source>
-        <translation>ユーザ名</translation>
+        <translation>Nom d&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="175"/>
         <source>Set username</source>
-        <translation>ユーザ名を入力</translation>
+        <translation>Définir nom d&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="212"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="243"/>
         <source>Password</source>
-        <translation>パスワード</translation>
+        <translation>Mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="213"/>
         <source>Set password</source>
-        <translation>パスワードを入力</translation>
+        <translation>Définir un mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="244"/>
         <source>Verify password</source>
-        <translation>パスワードを確認</translation>
+        <translation>Confirmez le mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="188"/>
         <source>Generate password</source>
-        <translation>パスワードをせいせい</translation>
+        <translation>Générer le mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="268"/>
         <source>Comment</source>
-        <translation>コメント</translation>
+        <translation>Commentaire</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="270"/>
         <source>Set comment</source>
-        <translation>コメントを入力</translation>
+        <translation>Définir commentaire</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="340"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="427"/>
         <source>Set</source>
-        <translation>設定</translation>
+        <translation>Saisir</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="343"/>
@@ -433,31 +428,31 @@
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="445"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="447"/>
         <source>Edit Label</source>
-        <translation>ラベルを編集</translation>
+        <translation>Editer l&apos;étiquette</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="342"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="386"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="402"/>
         <source>Delete</source>
-        <translation>削除</translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="280"/>
         <source>Change additional attributes</source>
-        <translation>追加属性の変更</translation>
+        <translation>Modifier les attributs supplémentaires</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="373"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="392"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="393"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="402"/>
         <source>Accept</source>
-        <translation>適用</translation>
+        <translation>Accepter</translation>
     </message>
 </context>
 <context>
@@ -465,42 +460,42 @@
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="91"/>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation>Enregistrer</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="92"/>
         <source>Discard</source>
-        <translation>破棄</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="96"/>
         <source>Change icon</source>
-        <translation>アイコンを変更</translation>
+        <translation>Modifier l&apos;icône</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="142"/>
         <source>Change group details</source>
-        <translation>グループの詳細情報を変更</translation>
+        <translation>Modifier les détails du groupe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="148"/>
         <source>Name of group</source>
-        <translation>グループ名</translation>
+        <translation>Nom de groupe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="150"/>
         <source>Set name of group</source>
-        <translation>グループ名を設定</translation>
+        <translation>Définir le nom de groupe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="171"/>
         <source>Notes for the group</source>
-        <translation>グループの情報</translation>
+        <translation>Notes pour le groupe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="173"/>
         <source>Set notes for the group</source>
-        <translation>グループの情報を設定</translation>
+        <translation>Définir notes pour le groupe</translation>
     </message>
 </context>
 <context>
@@ -508,37 +503,37 @@
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="66"/>
         <source>Select</source>
-        <translation>選択</translation>
+        <translation>Sélectionner</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="67"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="77"/>
         <source>Choose an icon for the password group:</source>
-        <translation>パスワードグループのアイコンを選択:</translation>
+        <translation>Choisir une icône pour le mot de passe de groupe :</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="78"/>
         <source>Choose an icon for the password entry:</source>
-        <translation>エントリのアイコンを選択:</translation>
+        <translation>Choisir une icône pour la saisie du mot de passe :</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="82"/>
         <source>Keepass Icons</source>
-        <translation>Keepassアイコン</translation>
+        <translation>Icônes de Keepass</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="104"/>
         <source>Custom Database Icons</source>
-        <translation>カスタムデータベースアイコン</translation>
+        <translation>Icônes de base de données Custom</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="126"/>
-        <source>ownKeepass Icon Pack</source>
-        <translation>ownKeepassアイコンパック</translation>
+        <source>KeePassSF Icon Pack</source>
+        <translation>Pack d&apos;icônes KeePassSF</translation>
     </message>
 </context>
 <context>
@@ -546,87 +541,82 @@
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="93"/>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation>Enregistrer </translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="94"/>
         <source>Discard</source>
-        <translation>破棄</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="95"/>
-        <source>ownKeepass Settings</source>
-        <translation>ownKeepassの設定</translation>
+        <source>KeePassSF Settings</source>
+        <translation>Paramètres KeePassSF</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="99"/>
-        <source>Change default settings of your ownKeepass application here</source>
-        <translation>ownKeepassのデフォルト設定を変更します</translation>
+        <source>Change default settings of your KeePassSF application here</source>
+        <translation>Modifiez ici les paramètres par défaut de l&apos;application KeePassSF</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="103"/>
         <source>Database</source>
-        <translation>データベース</translation>
+        <translation>Base de données</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="109"/>
         <source>Default encryption</source>
-        <translation>デフォルトの暗号方式</translation>
+        <translation>Chiffrement par défaut</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="157"/>
         <source>Default key transformation rounds</source>
-        <translation>デフォルトのKey transformation rounds</translation>
+        <translation>Cycles de transformation de la clé par défaut</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="171"/>
         <source>Setting this value higher increases opening time of the Keepass database but makes it more robust against brute force attacks</source>
-        <translation>この値を高く設定するとデータベースを開くのに時間がかかるようになりますが、Brute Force攻撃に対して強くなります。</translation>
+        <translation>Augmenter cette valeur augmente le temps d&apos;ouverture de la base de données d&apos;KeePassSF mais la rend plus robuste contre les attaques par force brute</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="178"/>
         <source>Security</source>
-        <translation>セキュリティ</translation>
+        <translation>Sécurité</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="247"/>
         <source>Enable this to unlock your database quickly with just the first 3 characters of your master password.</source>
-        <translation>有効にするとマスターパスワードの最初の3文字だけですばやくロックを解除できます。</translation>
+        <translation>Activez cette option pour déverrouiller rapidement votre base de données avec les 3 premiers caractères de votre mot de passe principal.</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="338"/>
         <source>Orientation</source>
-        <translation>画面の向き</translation>
+        <translation>Orientation</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="517"/>
         <source>Extended list view</source>
-        <translation>拡張リストビュー</translation>
+        <translation>Vue liste étendue</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="518"/>
         <source>If you switch this on username and password are shown below entry title in list views (reopen database to activate this setting)</source>
-        <translation>Onにするとリストビュー上のエントリタイトルの下にユーザ名とパスワードが表示されます(データベースを開き直すと設定が有効になります)</translation>
+        <translation>En activant ceci, le nom d&apos;utilisateur et le mot de passe sont affichés sous le titre de la vue par liste (ré-ouvrir la base de données pour activer ceci)</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="358"/>
         <source>Language</source>
-        <translation>言語</translation>
-    </message>
-    <message>
-        <location filename="../qml/content/EditSettingsDialog.qml" line="359"/>
-        <source>Change of language will be active in ownKeepass after restarting the application</source>
-        <translation>言語の変更は再起動後に有効になります</translation>
+        <translation>Langue</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="363"/>
         <source>System default</source>
-        <translation>システム設定</translation>
+        <translation>Système par défaut</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="190"/>
         <source>Inactivity lock time</source>
-        <translation>非操作時にロックするまでの時間</translation>
+        <translation>Délai de verrouillage pour inactivité</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="129"/>
@@ -651,7 +641,7 @@
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="207"/>
         <source>Immediately</source>
-        <translation>即時</translation>
+        <translation>Immédiatement</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="209"/>
@@ -663,13 +653,13 @@
         <location filename="../qml/content/EditSettingsDialog.qml" line="308"/>
         <location filename="../qml/content/EditSettingsDialog.qml" line="310"/>
         <source>seconds</source>
-        <translation>秒</translation>
+        <translation>secondes</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="215"/>
         <location filename="../qml/content/EditSettingsDialog.qml" line="312"/>
         <source>minute</source>
-        <translation>分</translation>
+        <translation>minute</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="217"/>
@@ -682,114 +672,119 @@
         <location filename="../qml/content/EditSettingsDialog.qml" line="318"/>
         <location filename="../qml/content/EditSettingsDialog.qml" line="320"/>
         <source>minutes</source>
-        <translation>分</translation>
+        <translation>minutes</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="227"/>
         <source>Unlimited</source>
-        <translation>無制限</translation>
+        <translation>Illimité</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="246"/>
         <source>Fast unlock</source>
-        <translation>ファストアンロック</translation>
+        <translation>Déverrouillage rapide</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="265"/>
         <source>Number of fast unlock retries</source>
-        <translation>ファストロックの入力試行回数</translation>
+        <translation>Nombre de tentatives de déverrouillage rapide</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="285"/>
         <source>Time to clear clipboard</source>
         <extracomment>This string will be used on the settings page under the slider to select the time period until when the clipboard will be emptied</extracomment>
-        <translation>クリップボードタイムアウト</translation>
+        <translation>Délai d’effacement du presse-papier</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="322"/>
         <source>Never</source>
-        <translation>クリップボードをクリアしない</translation>
+        <translation>Jamais</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="332"/>
         <source>UI settings</source>
-        <translation>UI設定</translation>
+        <translation>Paramètres d&apos;UI</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="339"/>
         <source>Change here orientation of the display</source>
-        <translation>画面の向きを変更します</translation>
+        <translation>Changer ici l&apos;orientation par défaut</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="343"/>
         <source>Dynamic</source>
         <extracomment>Dynamic means that the display orientation is changed according how the device is hold by the user</extracomment>
-        <translation>ダイナミック</translation>
+        <translation>Dynamique</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="344"/>
         <source>Portrait</source>
-        <translation>縦向き</translation>
+        <translation>Portrait</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="345"/>
         <source>Landscape</source>
-        <translation>横向き</translation>
+        <translation>Paysage</translation>
+    </message>
+    <message>
+        <location filename="../qml/content/EditSettingsDialog.qml" line="359"/>
+        <source>Change of language will be active in ownKeepass after restarting the application</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="505"/>
         <source>Sort in alphabetical order</source>
-        <translation>アルファベット順に並べ替える</translation>
+        <translation>Trier par ordre alphabétique</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="506"/>
         <source>Switching this on will sort all entries in the list view in alphabetical order otherwise database internal order is used (reopen database to activate this setting)</source>
-        <translation>Onにするとリストビュー内のすべてのエントリをアルファベット順にソートされ、そうでない時はデータベース内の順序が使用されます(データベースを開き直すと設定が有効になります)</translation>
+        <translation>En activant ceci, toutes les entrées de la vue par liste seront triées par ordre alphabétique, sinon l&apos;ordre interne de la base de données sera utilisé (ré-ouvrir la base de données pour activer)</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="529"/>
         <source>Focus search bar</source>
-        <translation>検索バーにフォーカスする</translation>
+        <translation>Focaliser sur barre de recherche</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="530"/>
         <source>If enabled the search bar will be focused on application startup</source>
-        <translation>有効にするとアプリ起動時に検索バーにフォーカスされます。</translation>
+        <translation>Si activé, le curseur sera placé sur la barre de recherche au démarrage de l&apos;application</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="539"/>
         <source>Cover settings</source>
-        <translation>カバーの設定</translation>
+        <translation>Paramètres de couverture</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="545"/>
         <source>Show username and password</source>
-        <translation>ユーザ名とパスワードを表示</translation>
+        <translation>Afficher le nom d&apos;utilisateur et le mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="546"/>
         <source>Switching this on will show username and password of the currently opened Keepass entry on the cover</source>
-        <translation>Onにすると現在開いているエントリのユーザ名とパスワードがカバーに表示されます。</translation>
+        <translation>Si activé, le nom d&apos;utilisateur et mot de passe de la saisie Keepass active seront affichés sur la couverture</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="557"/>
         <source>Lock database from cover</source>
-        <translation>カバーからデータベースをロックする</translation>
+        <translation>Verrouiller la base de données depuis la couverture</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="558"/>
         <source>This lets you lock the database with the left cover action</source>
-        <translation>左カバーアクションでデータベースをロックできるようにします</translation>
+        <translation>Permet de verrouiller la base de données par une action à gauche depuis la couverture </translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="569"/>
         <source>Copy&apos;n&apos;paste from cover</source>
-        <translation>カバーからコピー＆ペーストする</translation>
+        <translation>Copier - coller depuis la couverture</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="570"/>
         <source>Enable this to copy username and password into clipboard from cover</source>
-        <translation>カバーからクリップボードへのユーザ名・パスワードのコピーを有効にする</translation>
+        <translation>Activer ceci pour copier le nom d&apos;utilisateur et le mot de passe dans le presse-papier depuis la couverture</translation>
     </message>
 </context>
 <context>
@@ -797,88 +792,88 @@
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="74"/>
         <source>Problem with SD card</source>
-        <translation>SDカードに問題が発生しました</translation>
+        <translation>Problème avec la carte SD</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="75"/>
         <source>SD cards with multiple partitions are not supported.</source>
-        <translation>複数のパーティションを持つSDカードはサポートされていません。</translation>
+        <translation>Les cartes SD avec des partitions multiples ne sont pas prises en charge.</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="118"/>
         <source>Hide system files</source>
         <extracomment>Used in file browser to hide the system files</extracomment>
-        <translation>システムファイルを非表示</translation>
+        <translation>Cacher les fichiers système</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="120"/>
         <source>Show system files</source>
         <extracomment>Used in file browser to show the hidden system files</extracomment>
-        <translation>システムファイルを表示</translation>
+        <translation>Afficher les fichiers système</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="131"/>
         <source>Hide file filter</source>
         <extracomment>Used in file browser to hide the file name filter</extracomment>
-        <translation>ファイルフィルタを隠す</translation>
+        <translation>Cacher le filtre de fichier</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="133"/>
         <source>Show file filter</source>
         <extracomment>Used in file browser to show the file name filter</extracomment>
-        <translation>ファイルフィルタを表示する</translation>
+        <translation>Afficher le filtre de fichier</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="143"/>
         <source>Select</source>
         <extracomment>As in select file</extracomment>
-        <translation>選択</translation>
+        <translation>Sélectionner</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="144"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="159"/>
         <source>New file name</source>
-        <translation>新規ファイル名</translation>
+        <translation>Nouveau nom de fichier</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="160"/>
         <source>Enter new file name</source>
-        <translation>新規ファイル名を入力</translation>
+        <translation>Saisir un nouveau nom de fichier</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="201"/>
         <source>File filter</source>
-        <translation>ファイルフィルタ</translation>
+        <translation>Filtre de fichier</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="202"/>
         <source>Set file filter</source>
-        <translation>ファイルフィルタを設定</translation>
+        <translation>Activer le filtre de fichier</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="277"/>
         <source>Device Memory</source>
         <extracomment>&quot;Device Memory&quot; is used in the file browser and means all files which are saved under home folder of the user</extracomment>
-        <translation>デバイスのストレージ</translation>
+        <translation>Mémoire de l&apos;appareil</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="278"/>
         <source>SD Card</source>
-        <translation>SDカード</translation>
+        <translation>Carte SD</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="279"/>
         <source>Android Storage</source>
-        <translation>Androidストレージ</translation>
+        <translation>Stockage Android</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="275"/>
         <source>Back</source>
-        <translation>戻る</translation>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -887,23 +882,23 @@
         <location filename="../qml/scripts/Global.js" line="127"/>
         <source>Nothing selected yet</source>
         <extracomment>This is used in the file browser when the user has not yet selected any file.</extracomment>
-        <translation>選択されていません</translation>
+        <translation>Rien de séléctionné pour le moment</translation>
     </message>
     <message>
         <location filename="../qml/scripts/Global.js" line="130"/>
         <source>Device Memory</source>
         <extracomment>Like the user home folder in linux/unix</extracomment>
-        <translation>デバイスのストレージ</translation>
+        <translation>Mémoire de l&apos;appareil</translation>
     </message>
     <message>
         <location filename="../qml/scripts/Global.js" line="132"/>
         <source>SD Card</source>
-        <translation>SDカード</translation>
+        <translation>Carte SD</translation>
     </message>
     <message>
         <location filename="../qml/scripts/Global.js" line="134"/>
         <source>Android Storage</source>
-        <translation>Androidストレージ</translation>
+        <translation>Stockage Android</translation>
     </message>
 </context>
 <context>
@@ -922,55 +917,55 @@
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="93"/>
         <source>Search</source>
-        <translation>検索</translation>
+        <translation>Recherche</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="152"/>
         <source>No entries found</source>
-        <translation>エントリが見つかりません</translation>
+        <translation>Aucune entrée trouvée</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="171"/>
         <source>Decrypting Keepass database</source>
-        <translation>データベースを復号化</translation>
+        <translation>Base de données Keepass en cours de déchiffrement </translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="193"/>
         <source>Group is empty</source>
-        <translation>グループが空です</translation>
+        <translation>Le groupe est vide</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="194"/>
         <source>Pull down to add password groups or entries</source>
-        <translation>プルダウンしてパスワードグループ又はエントリを追加</translation>
+        <translation>Tirez vers le bas pour ajouter un groupe de mots de passe ou des saisies</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="307"/>
         <source>Loading</source>
-        <translation>読込み中</translation>
+        <translation>Chargement</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="363"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="367"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="401"/>
         <source>Search in all groups</source>
-        <translation>全てのグループを検索</translation>
+        <translation>Rechercher dans tous les groupes</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="364"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="368"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="402"/>
         <source>Search in</source>
-        <translation>検索中</translation>
+        <translation>Rechercher dans</translation>
     </message>
 </context>
 <context>
     <name>HelpCreateNewDatabase</name>
     <message>
         <location filename="../qml/help/HelpCreateNewDatabase.qml" line="28"/>
-        <source>On this page you can create a new database where ownKeepass will store your sensitive data.&lt;br&gt;&lt;br&gt;Open the file browser and choose a file name and a directory. You can choose to locate your database in device memory, on the SD card or in the Android Storage. If the SD card entry is grey then no SD card is inserted or the card is not correctly detected by the System. There should be only one formatted partition on the SD card. Currently multi-partition SD cards are not supported by ownKeepass. &quot;Android storage&quot; is there to share the database with Android Apps. However sharing files with the Android world can be annoying due to different file ownership and permissions. Please be aware of that.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;A key file can be used additionally to a master password to protect the Keepass database. Both are used together to generate a pass key which will open the database. So by using a file with lots of data inside the generated pass key becomes in principle stronger against attacks. You can use for example a random picture as key file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here goes the password for your new Keepass database. Please make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Password&quot; field.&lt;br&gt;&lt;br&gt;</source>
+        <source>On this page you can create a new database where KeePassSF will store your sensitive data.&lt;br&gt;&lt;br&gt;Open the file browser and choose a file name and a directory. You can choose to locate your database in device memory, on the SD card or in the Android Storage. If the SD card entry is grey then no SD card is inserted or the card is not correctly detected by the System. There should be only one formatted partition on the SD card. Currently multi-partition SD cards are not supported by KeePassSF. &quot;Android storage&quot; is there to share the database with Android Apps. However sharing files with the Android world can be annoying due to different file ownership and permissions. Please be aware of that.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;A key file can be used additionally to a master password to protect the Keepass database. Both are used together to generate a pass key which will open the database. So by using a file with lots of data inside the generated pass key becomes in principle stronger against attacks. You can use for example a random picture as key file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here goes the password for your new Keepass database. Please make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Password&quot; field.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Changed &quot;home drive on the phone&quot; to &quot;Device Memory&quot;, removed section for &quot;Open automatically&quot;</extracomment>
-        <translation>このページではownKeepassがあなたのセンシティブなデータを格納する新しいデータベースを作成できます。&lt;br&gt;&lt;br&gt;ファイルブラウザを開いてファイル名と保存先を選択してください。ファイルの保存先にはデバイス内蔵ストレージ、SDカード及びAndroidストレージが選択できます。SDカードが挿入されていないかシステムによって適切に検出できていない場合はSDカードはグレイアウトされます。SDカードは単一パーティションでフォマットされている必要があります。現時点でマルチパーティションのSDカードはサポートされていません。&quot;Androidストレージ&quot;はAndroidアプリとデータベースを共有する場合に使用します。しかしながらAndroidアプリとのファイル共有はオーナーやパーミッションの関係でうまくいかない場合があることをご了承ください。&lt;br&gt;&lt;br&gt;忠告: データベースをクラウドストレージにアップロードする場合は、マスターパスワードに加えてローカルに保存したキーファイルを使うようにしてください。またキーファイルはクラウドストレージに送らないでください。&lt;br&gt;&lt;br&gt;&lt;b&gt;キーファイルの使用&lt;/b&gt;&lt;br&gt;&lt;br&gt;キーファイルはデータベースを保護するためのマスターパスワードに追加で使用できます。これらはデータベースを開くためのパスキーを生成するために使用されます。従って沢山のデータを含むファイルを使うことで生成されるパスキーは基本的に攻撃に対して強くなります。例えばあなたはキーファイルとしてランダムな写真を使うことができます。&lt;br&gt;&lt;br&gt;&lt;b&gt;マスターパスワード&lt;/b&gt;&lt;br&gt;&lt;br&gt;これがあなたの新しいデータベースのパスワードです。10～15文字程度の大文字、小文字、数字、特殊文字の混ざった長いパスワードを選ぶようにしてください。&quot;パスワードの確認&quot;欄に同じパスワードを入力してください。&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Sur cette page vous pouvez créer une nouvelle base de données où KeePassSF stockera vos données sensibles.&lt;br&gt;&lt;br&gt;Ouvrer le navigateur de fichier et choisisser un nom de fichier et un répertoire. Vous pouvez choisir de localiser votre base de données dans la mémoire du téléphone, sur la carte SD ou dans le stockage d&apos;Android. Si l&apos;entrée de carte SD est grisée alors aucune carte SD n&apos;est insérée ou la carte n&apos;est pas correctement détectée par le Système. Il devrait y avoir une seule partition formatée sur la carte SD. Le multi-partition des cartes SD n&apos;est actuellement pas supporté par KeePassSF. &quot;Le stockage d&apos;Android&quot; est là pour partager la base de données avec des applications Android. Cependant le partage de fichiers avec le monde d&apos;Android peut être ennuyeux en raison de la propriété de fichier différente et des permissions. Veuillez être attentifs à cela.&lt;br&gt;&lt;br&gt;Conseil : si vous chargez votre base de données Keepass dans le cloud, veuillez vous assurer de l&apos;utilisation d&apos;un fichier de clé stocké localement en plus du mot de passe principal. Ce fichier de clé ne devrait pas être téléchargé sur le service du cloud.&lt;br&gt;&lt;br&gt;&lt;b&gt;Utilisation du fichier de clé&lt;/b&gt;&lt;br&gt;&lt;br&gt;un fichier de clé peut être associé à un mot de passe principal pour protéger la base de données Keepass. Tous les deux sont utilisés ensemble pour produire une nouvelle clé qui ouvrira la base de données. Ainsi en utilisant un fichier avec beaucoup de données à l&apos;intérieur, la clé produite devient en principe plus fort contre des attaques. Vous pouvez utiliser par exemple une image aléatoire comme le fichier clé.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mot de passe principal&lt;/b&gt;&lt;br&gt;&lt;br&gt;Il s&apos;agit là du mot de passe pour votre nouvelle base de données Keepass. Assurez-vous s&apos;il vous plaît que vous choisissez un long mot de passe d&apos;environ 10 - 15 caractères et utlisez aléatoirement des lettres majuscules et minuscules, des chiffres et des caractères spéciaux. Retapez le mot de passe dans le champ  &quot;Confirmation de mot de passe&quot;.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -978,7 +973,7 @@
     <message>
         <location filename="../qml/help/HelpDatabaseSettings.qml" line="27"/>
         <source>On this dialog you can change database internal settings of your currently opened Keepass database file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here you can type in a new master password for the Keepass database. Please note that if you forgot your master password there is no way to recover the password. It is not saved in the Keepass database and there is also no backdoor to open the database without your password. Furhtermore make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Master Password&quot; field.&lt;br&gt;&lt;br&gt;&lt;b&gt;Encryption currently in use&lt;/b&gt;&lt;br&gt;&lt;br&gt;This is the encryption algorithm which is used to cipher the Keepass database content.&lt;br&gt;&lt;br&gt;&lt;b&gt;Key transformation rounds&lt;/b&gt;&lt;br&gt;&lt;br&gt;Set the default value for key transformation rounds for your Keepass database. This value controls the amount of encryption rounds computed on the master password. Adjusting this value has direct effect on the time needed to decrypt the database on loading. But setting this value higher makes the database more robust against brute force attacks. As a good compromise between security and usability you should adjust the value so that opening the database takes one second on your phone.&lt;br&gt;&lt;br&gt;</source>
-        <translation>このダイアログでは現在開いているデータベースファイルの内部設定を変更できます。&lt;br&gt;&lt;br&gt;&lt;b&gt;マスターパスワード&lt;/b&gt;データベース用の新しいマスターパスワードを入力します。パスワードを忘れてしまった場合、如何なる方法でもリカバリできないことに注意してください。パスワード自体はデータベースには保存されず、パスワードなしでデータベースを開く方法もありません。また、パスワードは10～15文字程度の長さで小文字、大文字、数字、記号を含むものを選択して下さい。&quot;マスターパスワードの確認&quot;の欄にもう一度パスワードを入力して下さい。&lt;br&gt;&lt;br&gt;&lt;b&gt;現在の暗号化方式&lt;/b&gt;現在使用中のデータベースの暗号化アルゴリズムを表示します&lt;br&gt;&lt;br&gt;&lt;b&gt;Key transformation rounds&lt;/b&gt;&lt;br&gt;&lt;br&gt;データベースのkey transformation roundsのデフォルト値を設定します。この値はマスターパスワードで暗号化計算をする量を規程します。この値の変更はデータベースを開く際の復号化にかかる時間に直接影響を与えますが、より大きな値はBrute Force Attackへの耐性を高めます。セキュリティと使い勝手のバランスを見ながら調整して下さい。&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Sur cette page vous pouvez changer les paramètres internes de votre fichier de base de données Keepass actuellement ouvert.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mot de passe principal&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ici vous pouvez entrer un nouveau mot de passe principal pour la base de données Keepass. Notez bien que si vous oubliez votre mot de passe principal, il est impossible de le récupérer. Il n&apos;est pas enregistré dans la base de données Keepass et il n&apos;y a aucun moyen d&apos;ouvrir la base de données sans le mot de passe. De plus, veillez à choisir un mot de passe long d&apos;environ 10-15 caractères et utilisez un mélange de caractères minuscules, majuscules, de chiffres et de caractères spéciaux. Retapez le mot de passe dans le champ &quot;Confirmez le mot de passe principal&quot;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Méthode de chiffrement utilisée&lt;/b&gt;&lt;br&gt;&lt;br&gt;Il s&apos;agit de l&apos;algorithme de chiffrement utilisé pour chiffrer le contenu de la base de données Keepass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Cycles de transformation de la clé&lt;/b&gt;&lt;br&gt;&lt;br&gt;Entrez la valeur par défaut du nombre de cycles de transformation de la clé de votre base de données Keepass. Cette valeur contrôle le nombre de cycles de chiffrement réalisés sur le mot de passe principal. Changer cette valeur modifiera le temps nécessaire pour déchiffrer votre base de données au chargement. Mais une valeur plus haute rend la base de données plus robuste contre les attaques par force brute. Un bon compromis entre sécurité et rapidité est d&apos;ajuster la valeur afin que la base de donnée mette une seconde à s&apos;ouvrir sur votre téléphone.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -993,22 +988,24 @@
     <name>HelpMainPage</name>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="27"/>
-        <source>ownKeepass is a password safe application for Sailfish devices with the purpose to protect sensible data like passwords for web pages, credit card numbers, PINs, TANs and other bits of information which should be kept secret. All that information is saved in a database file which is encrypted and stored locally on your phone. To open the database you need to know the master password of the database. ownKeepass uses a Keepass version 2 database. That means you can use Keepass [1] or KeepassXC [2] on your desktop system to decrypt and open that database file, too.</source>
+        <source>KeePassSF is a password safe application for Sailfish devices with the purpose to protect sensible data like passwords for web pages, credit card numbers, PINs, TANs and other bits of information which should be kept secret. All that information is saved in a database file which is encrypted and stored locally on your phone. To open the database you need to know the master password of the database. KeePassSF uses a Keepass version 2 database. That means you can use Keepass [1] or KeepassXC [2] on your desktop system to decrypt and open that database file, too.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="36"/>
-        <source>&lt;b&gt;Usage of help pages&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each page inside of ownKeepass has its own Help content. So please make use of it and learn about the features offered by ownKeepass.</source>
-        <translation>&lt;b&gt;ヘルプページの使い方&lt;/b&gt;&lt;br&gt;&lt;br&gt;ownKeepass内のそれぞれのページにヘルプコンテンツがあります。これを活用して、 ownKeepassによって提供される機能について学ぶことができます。</translation>
+        <source>&lt;b&gt;Usage of help pages&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each page inside of KeePassSF has its own Help content. So please make use of it and learn about the features offered by KeePassSF.</source>
+        <translation>&lt;b&gt;Utilisation des pages d&apos;aide&lt;/b&gt;&lt;br&gt;&lt;br&gt;Chaque page de KeePassSF possède son contenu d&apos;Aide associé.
+Consultez-les et prenez connaissance des fonctions offertes par ownkeepass.
+ </translation>
     </message>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="41"/>
-        <source>&lt;b&gt;Some words about Keepass database security&lt;/b&gt;&lt;br&gt;&lt;br&gt;The database code in ownKeepass is based on the KeepassXC project [2] and as such contains a lot of security related features. It uses proven encryption algorithms like AES, Twofish or ChaCha20 and SHA-256 and Argon2 as hashing algorithms. Furthermore it protects the master password against Brute-Force and Dictonary Attacks by hashing and encrypting it before using it to decrypt the Keepass database. This feature is called key transformation rounds and can be adjusted in database settings. Anyway that all just adds additional security to two points which you should be aware of:&lt;br&gt;&lt;br&gt;(1) Always use a long enough and difficult to guess master password.&lt;br&gt;&lt;br&gt;(2) Protect your system from spyware which might be specialized to attack ownKeepass. The second is law #1 of the 10 Immutable Laws of Security: &quot;If a bad guy can persuade you to run his program on your computer, it&apos;s not your computer anymore&quot;.</source>
+        <source>&lt;b&gt;Some words about Keepass database security&lt;/b&gt;&lt;br&gt;&lt;br&gt;The database code in KeePassSF is based on the KeepassXC project [2] and as such contains a lot of security related features. It uses proven encryption algorithms like AES, Twofish or ChaCha20 and SHA-256 and Argon2 as hashing algorithms. Furthermore it protects the master password against Brute-Force and Dictonary Attacks by hashing and encrypting it before using it to decrypt the Keepass database. This feature is called key transformation rounds and can be adjusted in database settings. Anyway that all just adds additional security to two points which you should be aware of:&lt;br&gt;&lt;br&gt;(1) Always use a long enough and difficult to guess master password.&lt;br&gt;&lt;br&gt;(2) Protect your system from spyware which might be specialized to attack KeePassSF. The second is law #1 of the 10 Immutable Laws of Security: &quot;If a bad guy can persuade you to run his program on your computer, it&apos;s not your computer anymore&quot;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="58"/>
-        <source>&lt;b&gt;Sharing Keepass database between your Jolla Smartphone / Tablet and your desktop PC&lt;/b&gt;&lt;br&gt;&lt;br&gt;The Keepass database file format is perfect to share your password safe between different systems like smartphones, tablets, desktop PC and so on. That is because there are a lot of Keepass implementations available for those platforms. Have a look at the KeepassXC download page [3] to get a community developed Keepass version for the desktop PC.&lt;br&gt;You can share your Keepass database file via SD card or via a cloud service like ownCloud or Dropbox. When using a cloud server I would recommend to use a key file in addition to the master password. The additional key file will be used by ownKeepass to decrypt the database. Store this key file only locally on your smartphone and on your desktop PC. Do not upload it to the cloud service. If an attacker hacks your cloud service he will be left without the key file. By doing so you make it even harder for an attacker to crack your Keepass database because the key file content is usually impossible to guess.</source>
+        <source>&lt;b&gt;Sharing Keepass database between your Jolla Smartphone / Tablet and your desktop PC&lt;/b&gt;&lt;br&gt;&lt;br&gt;The Keepass database file format is perfect to share your password safe between different systems like smartphones, tablets, desktop PC and so on. That is because there are a lot of Keepass implementations available for those platforms. Have a look at the KeepassXC download page [3] to get a community developed Keepass version for the desktop PC.&lt;br&gt;You can share your Keepass database file via SD card or via a cloud service like ownCloud or Dropbox. When using a cloud server I would recommend to use a key file in addition to the master password. The additional key file will be used by KeePassSF to decrypt the database. Store this key file only locally on your smartphone and on your desktop PC. Do not upload it to the cloud service. If an attacker hacks your cloud service he will be left without the key file. By doing so you make it even harder for an attacker to crack your Keepass database because the key file content is usually impossible to guess.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1016,9 +1013,9 @@
     <name>HelpOpenNewDatabase</name>
     <message>
         <location filename="../qml/help/HelpOpenNewDatabase.qml" line="28"/>
-        <source>Here you can open an existing Keepass database file.&lt;br&gt;&lt;br&gt;Use the file browser to search for your Keepass database file. You will be able to look into the following locations: Device Memory, SD card and Android storage. If you have trouble with ownKeepass not finding the file please make sure to place it in below mentioned paths. &quot;Device Memory&quot; is located at &quot;%1&quot;. If a SD card is inserted in your phone it is located at &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Please note that SD cards with more than one partition are not supported.) &quot;Android storage&quot; is located at &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you need a key file for opening your Keepass database please check this option.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Type in here the password for your Keepass database.&lt;br&gt;&lt;br&gt;</source>
+        <source>Here you can open an existing Keepass database file.&lt;br&gt;&lt;br&gt;Use the file browser to search for your Keepass database file. You will be able to look into the following locations: Device Memory, SD card and Android storage. If you have trouble with KeePassSF not finding the file please make sure to place it in below mentioned paths. &quot;Device Memory&quot; is located at &quot;%1&quot;. If a SD card is inserted in your phone it is located at &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Please note that SD cards with more than one partition are not supported.) &quot;Android storage&quot; is located at &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you need a key file for opening your Keepass database please check this option.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Type in here the password for your Keepass database.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Removed one sentence in section &quot;Use key file&quot;, Changed &quot;Home&quot; to &quot;Device Memory&quot;, Removed section for &quot;Open automatically&quot;, changed &lt;UUID&gt; to &amp;lt;UUID&amp;gt; so that it will be actually shown ;)</extracomment>
-        <translation>ここでは既存のKeepassデータベースファイルを開くことができます。&lt;br&gt;&lt;br&gt;ファイルブラウザを使用してKeepassデータベースファイルを検索します。 デバイスメモリ、SDカード、およびAndroidストレージを確認することができます。 ファイルに問題がある場合は、下記のパスにファイルを配置してください。 &quot;デバイスメモリ&quot;は &quot;％1&quot;にあります。 SDカードが携帯電話に挿入されている場合は、「/ media / sdcard /＆lt; UUID＆gt;」にあります。(複数のパーティションを持つSDカードはサポートされていませんのでご注意ください) &quot;Android storage&quot;は &quot;％2&quot;にあります。&lt;br&gt;&lt;br&gt;Keepassデータベースをクラウドにアップロードする場合は、マスターパスワードに加えてローカルに保存されたキーファイルを使用するようにしてください。この時キーファイルをクラウドにアップロードしてはいけません。&lt;br&gt;&lt;br&gt;&lt;b&gt;キーファイルを使用&lt;/b&gt;&lt;br&gt;&lt;br&gt;Keepassデータベースを開くためのキーファイルが必要な場合は、このオプションをオンにしてください。&lt;br&gt;&lt;br&gt;&lt;b&gt;マスターパスワード&lt;/ b&gt;&lt;br&gt;Keepassデータベースのパスワードをここに入力してください。&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Ici vous pouvez ouvrir un fichier de base de données Keepass existant.&lt;br&gt;&lt;br&gt;Utilisez le gestionnaire de fichier pour chercher votre fichier de base de données Keepass. Vous pourrez examiner les emplacements suivants : Mémoire de téléphone, carte SD et stockage d&apos;Android. Si vous avez des difficultés avec KeePassSF ne trouvant pas le fichier assurez-vous de le placer dans les chemins mentionnés ci-après. &quot;Mémoire de téléphone&quot; est localisée sur &quot;%1&quot;. Si une carte SD est insérée dans votre téléphone, elle est localisée sur  &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Merci de noter que les cartes avec plusieurs partition ne sont pas supportées.) &quot;stockage Android&quot; est localisé sur &quot;%2&quot;.</translation>
     </message>
 </context>
 <context>
@@ -1034,12 +1031,12 @@
     <message>
         <location filename="../qml/help/HelpPage.qml" line="49"/>
         <source>Password Safe</source>
-        <translation>Password Safe</translation>
+        <translation>Gestionnaire de mots de passe</translation>
     </message>
     <message>
         <location filename="../qml/help/HelpPage.qml" line="57"/>
         <source>Help</source>
-        <translation>ヘルプ</translation>
+        <translation>Aide</translation>
     </message>
 </context>
 <context>
@@ -1048,29 +1045,29 @@
         <location filename="../qml/content/KdbListItem.qml" line="46"/>
         <source>Deleting group</source>
         <extracomment>This is used in the remorseAction when attempting to delete a password group</extracomment>
-        <translation>グループを削除します</translation>
+        <translation>Suppression du groupe</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="53"/>
         <source>Deleting entry</source>
         <extracomment>This is used in the remorseAction when attempting to delete a password entry</extracomment>
-        <translation>エントリを削除します</translation>
+        <translation>Suppression de l&apos;entrée</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="166"/>
         <source>Edit</source>
-        <translation>編集</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="184"/>
         <source>Delete</source>
-        <translation>削除</translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="201"/>
         <source>Move</source>
         <extracomment>used in menu to move the password entry into another group</extracomment>
-        <translation>移動</translation>
+        <translation>Déplacer</translation>
     </message>
 </context>
 <context>
@@ -1078,12 +1075,12 @@
     <message>
         <location filename="../qml/content/LicensePage.qml" line="47"/>
         <source>Password Safe</source>
-        <translation>Password Safe</translation>
+        <translation>Gestionnaire de mots de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/LicensePage.qml" line="55"/>
         <source>License</source>
-        <translation>ライセンス</translation>
+        <translation>License</translation>
     </message>
 </context>
 <context>
@@ -1091,369 +1088,369 @@
     <message>
         <location filename="../qml/content/LockPage.qml" line="54"/>
         <source>Close Database</source>
-        <translation>データベースを閉じる</translation>
+        <translation>Fermer la base de donnée</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="77"/>
         <source>Password Safe</source>
-        <translation>Password Safe</translation>
+        <translation>Gestionnaire de mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="136"/>
         <source>Unlock your Password Safe with the first 3 characters of your master password:</source>
-        <translation>マスターパスワードの先頭3文字を入力してアンロックしてください。</translation>
+        <translation>Déverrouiller votre gestionnaire de mot de passe avec les 3 premiers caractères de votre mot de passe principal :</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="235"/>
         <source>You have %1 tries left</source>
-        <translation>あと %1 回入力できます</translation>
+        <translation>Il vous reste %1 tentatives</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="237"/>
         <source>You have one try left</source>
-        <translation>あと 1 回入力できます</translation>
+        <translation>1 tentative restante</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="239"/>
         <source>Wrong unlock code</source>
-        <translation>ロック解除コードが違います</translation>
+        <translation>Code erroné</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="281"/>
+        <location filename="../qml/content/MainPage.qml" line="278"/>
         <source>Problem with SD card</source>
-        <translation>SDカードに問題が発生しました</translation>
+        <translation>Problème avec la carte SD</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="282"/>
+        <location filename="../qml/content/MainPage.qml" line="279"/>
         <source>SD cards with multiple partitions are not supported.</source>
-        <translation>複数パーティションを持つSDカードはサポートされていません</translation>
+        <translation>Les cartes SD avec des partitions multiples ne sont pas prises en charge.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="322"/>
+        <location filename="../qml/content/MainPage.qml" line="319"/>
         <source>Create new database</source>
-        <translation>新規データベース作成</translation>
+        <translation>Créer une nouvelle base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="338"/>
+        <location filename="../qml/content/MainPage.qml" line="335"/>
         <source>Open database</source>
-        <translation>データベースを開く</translation>
+        <translation>Ouvrir une base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="365"/>
+        <location filename="../qml/content/MainPage.qml" line="362"/>
         <source>Password Safe</source>
-        <translation>Password Safe</translation>
+        <translation>Gestionnaire de mots de passe</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="465"/>
+        <location filename="../qml/content/MainPage.qml" line="462"/>
         <source>Type in a master password for locking your new Keepass Password Safe:</source>
-        <translation>マスターパスワードを入力して新規Password Safeをロックする：</translation>
+        <translation>Saisir un mot de passe principal pour verrouiller votre nouveau gestionnaire de mots de passe Keepass :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="472"/>
+        <location filename="../qml/content/MainPage.qml" line="469"/>
         <source>Path and name for new database</source>
         <extracomment>This is on the first page. The user has not yet created any Keepass databases. It gives the info where the new default database will be created.</extracomment>
-        <translation>新規データベースのパスと名前</translation>
+        <translation>Emplacement et nom du fichier de la nouvelle base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="485"/>
+        <location filename="../qml/content/MainPage.qml" line="482"/>
         <source>Path and name of database</source>
         <extracomment>This is on the first page where the user inputs the master password of his Keepass database.</extracomment>
-        <translation>データベースのパスと名前</translation>
+        <translation>Emplacement et nom du fichier de la base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="645"/>
+        <location filename="../qml/content/MainPage.qml" line="642"/>
         <source>Permission error</source>
-        <translation>パーミッションエラー</translation>
+        <translation>Erreur d&apos;autorisation</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="645"/>
+        <location filename="../qml/content/MainPage.qml" line="642"/>
         <source>Cannot create path for your Keepass database file. You may need to set directory permissions for user &apos;nemo&apos;.</source>
-        <translation>データベースファイル用のパスを作成できません。&apos;nemo&apos;ユーザの権限があるディレクトリを設定してください。</translation>
+        <translation>Ne peut pas créer d&apos;emplacement pour votre ficher de base de données Keepass. Il vous faut définir les autorisations du répertoire pour l&apos;utilisateur &quot;nemo&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="650"/>
-        <location filename="../qml/content/MainPage.qml" line="667"/>
+        <location filename="../qml/content/MainPage.qml" line="647"/>
+        <location filename="../qml/content/MainPage.qml" line="664"/>
         <source>Key file error</source>
-        <translation>キーファイルエラー</translation>
+        <translation>Erreur de fichier de clé</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="650"/>
-        <location filename="../qml/content/MainPage.qml" line="667"/>
+        <location filename="../qml/content/MainPage.qml" line="647"/>
+        <location filename="../qml/content/MainPage.qml" line="664"/>
         <source>Database path is ok, but your key file is not present. Please check path to key file:</source>
-        <translation>データベースのパスは正確ですが、キーファイルが見つかりません。キーファイルのパスを確認して下さい。</translation>
+        <translation>L&apos;emplacement de base de données est correct mais le fichier de clé est absente. Veuillez vérifier le chemin pour le fichier de clé :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="655"/>
+        <location filename="../qml/content/MainPage.qml" line="652"/>
         <source>Database file already exists</source>
-        <translation>データベースファイルは既に存在します</translation>
+        <translation>Fichier de base de données existe déjà</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="655"/>
+        <location filename="../qml/content/MainPage.qml" line="652"/>
         <source>Please specify another path and name for your Keepass database or delete the old database within a file browser.</source>
-        <translation>ファイルブラウザで別のパスとデータベース名を指定するか、古いデータベースを削除してください。</translation>
+        <translation>Indiquez un autre emplacement et nom pour votre base de données Keepass ou supprimez l&apos;ancienne base de données à l&apos;aide d&apos;un navigateur de fichier.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="672"/>
+        <location filename="../qml/content/MainPage.qml" line="669"/>
         <source>Database file error</source>
-        <translation>データベースファイルエラー</translation>
+        <translation>Erreur de fichier de base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="672"/>
+        <location filename="../qml/content/MainPage.qml" line="669"/>
         <source>Database file does not exist. Please check path to database file:</source>
-        <translation>データベースファイルがありません。パスを確認してください。</translation>
+        <translation>Le fichier de base de données n&apos;existe pas. Vérifiez l&apos;emplacement :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="167"/>
+        <location filename="../qml/content/MainPage.qml" line="164"/>
         <source>Database file</source>
-        <translation>データベースファイル</translation>
+        <translation>Fichier de base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="168"/>
+        <location filename="../qml/content/MainPage.qml" line="165"/>
         <source>The specified file is not a Keepass database.</source>
-        <translation>選択したファイルはKeepassデータベースではありません。</translation>
+        <translation>Le fichier spécifié n&apos;est pas une base de données Keepass.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="174"/>
-        <location filename="../qml/content/MainPage.qml" line="239"/>
+        <location filename="../qml/content/MainPage.qml" line="171"/>
+        <location filename="../qml/content/MainPage.qml" line="236"/>
         <source>Database version</source>
-        <translation>データベースバージョン</translation>
+        <translation>Version de base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="175"/>
+        <location filename="../qml/content/MainPage.qml" line="172"/>
         <source>The specified file has an unsupported Keepass database version.</source>
-        <translation>指定されたデータベースはサポートされていないバージョンです。</translation>
+        <translation>Le fichier spécifié contient une version de base de données Keepass non supportée.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="135"/>
-        <location filename="../qml/content/MainPage.qml" line="153"/>
-        <location filename="../qml/content/MainPage.qml" line="181"/>
-        <location filename="../qml/content/MainPage.qml" line="202"/>
-        <location filename="../qml/content/MainPage.qml" line="234"/>
+        <location filename="../qml/content/MainPage.qml" line="132"/>
+        <location filename="../qml/content/MainPage.qml" line="150"/>
+        <location filename="../qml/content/MainPage.qml" line="178"/>
+        <location filename="../qml/content/MainPage.qml" line="199"/>
+        <location filename="../qml/content/MainPage.qml" line="231"/>
         <source>Internal database error</source>
-        <translation>データベース内部エラー</translation>
+        <translation>Erreur interne de base de données</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="102"/>
         <source>Could not load database with following error:</source>
-        <translation>エラーによりデータベースを読み込めません:</translation>
+        <translation>Chargement de la base de données impossible en raison des erreurs suivantes : </translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="113"/>
         <source>Entry not found</source>
-        <translation>エントリがみつかりませn</translation>
+        <translation>Entrée introuvable</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="114"/>
         <source>Error while searching for password entry in database.</source>
-        <translation>データベース内のエントリ検索中にエラーが発生しました</translation>
+        <translation>Erreur lors la recherche du mot de passe dans la base de données.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="119"/>
         <source>Group not found</source>
-        <translation>グループがみつかりませn</translation>
+        <translation>Groupe introuvable</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="120"/>
         <source>Error while searching for password group in database.</source>
-        <translation>データベース内のパスワードグループ検索中にエラーが発生しました</translation>
+        <translation>Erreur lors la recherche du mot de passe de groupe dans la base de données.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="125"/>
         <source>No database opened</source>
-        <translation>開かれているデータベースはありません</translation>
+        <translation>Aucune base de données ouverte</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="126"/>
         <source>Could not connect to a loaded database. This seems to be a bug.</source>
-        <translation>読み込まれたデータベースに接続できません。これはバグのようです。</translation>
+        <translation>Connexion à une base de données impossible. Ceci semble être un bug.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="148"/>
+        <location filename="../qml/content/MainPage.qml" line="145"/>
         <source>The following error occured during creation of the key for the database:</source>
-        <translation>データベースのキー生成中にエラーが発生しました:</translation>
+        <translation>L&apos;erreur suivante s&apos;est produite lors de la création de la clé de base de données :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="182"/>
+        <location filename="../qml/content/MainPage.qml" line="179"/>
         <source>Database headers are missing.</source>
-        <translation>データベースのヘッダーが欠落しています</translation>
+        <translation>Les en-têtes de base de données sont manquants.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="188"/>
-        <location filename="../qml/content/MainPage.qml" line="195"/>
+        <location filename="../qml/content/MainPage.qml" line="185"/>
+        <location filename="../qml/content/MainPage.qml" line="192"/>
         <source>Wrong password</source>
-        <translation>パスワードが違います</translation>
+        <translation>Mot de passe erroné</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="189"/>
+        <location filename="../qml/content/MainPage.qml" line="186"/>
         <source>Either your master password is wrong or the database file is corrupt. Please try again.</source>
-        <translation>パスワードが違うかデータベースが破損しています。やりなおして下さい。</translation>
+        <translation>Mot de passe principal erroné ou fichier de base de données corrompu. Essayez à nouveau.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="196"/>
+        <location filename="../qml/content/MainPage.qml" line="193"/>
         <source>Either your master password is wrong or your key file is wrong. Please try again. If the error persists then either key file or database file is corrupt.</source>
-        <translation>マスターパスワードもしくはキーファイルが違います。やりなおしてください。エラーが続く場合は、キーファイルまたはデータベースファイルのいずれかが破損しています。</translation>
+        <translation>Votre mot de passe principal ou votre fichier de clé est erroné. Essayez à nouveau. Si l&apos;erreur persiste, le fichier de clé ou le fichier de base de donnée est corrompu.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="203"/>
+        <location filename="../qml/content/MainPage.qml" line="200"/>
         <source>Database head doesn&apos;t match corresponding hash value.</source>
-        <translation>データベースヘッドが対応するハッシュ値と一致しません。</translation>
+        <translation>L&apos;entête de base de données ne coïncide pas à la valeur de hachage correspondante.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="209"/>
-        <location filename="../qml/content/MainPage.qml" line="216"/>
+        <location filename="../qml/content/MainPage.qml" line="206"/>
+        <location filename="../qml/content/MainPage.qml" line="213"/>
         <source>File I/O error</source>
-        <translation>ファイル I/O エラー</translation>
+        <translation>Erreur de fichier I/O</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="210"/>
+        <location filename="../qml/content/MainPage.qml" line="207"/>
         <source>Cannot open database file. Error details:</source>
-        <translation>データベースを開けません。エラーの詳細：</translation>
+        <translation>Impossible d&apos;ouvrir le fichier de base de données. Détails de l&apos;erreur :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="217"/>
+        <location filename="../qml/content/MainPage.qml" line="214"/>
         <source>Cannot open key file. Error details:</source>
-        <translation>キーファイルを開けません。エラーの詳細：</translation>
+        <translation>Impossible d&apos;ouvrir le fichier de clé. Détails de l&apos;erreur :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="223"/>
-        <location filename="../qml/content/MainPage.qml" line="229"/>
+        <location filename="../qml/content/MainPage.qml" line="220"/>
+        <location filename="../qml/content/MainPage.qml" line="226"/>
         <source>Internal Error</source>
-        <translation>内部エラー</translation>
+        <translation>Erreur interne</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="224"/>
+        <location filename="../qml/content/MainPage.qml" line="221"/>
         <source>Something went wrong with dropping the database from the recent database list. That shouldn&apos;t happen. Please let me (the developer) know about that via email or at github. Thanks!</source>
-        <translation>なんらかの異常により最新のデータベースリストからデータベースが欠落しています。通常発生し得ない現象なので、私(開発者)に電子メールまたはgithubからご連絡ください。よろしくお願いします。</translation>
+        <translation>Une erreur s&apos;est produite en supprimant la base de données de la liste des bases de données récentes. Ceci ne devrait pas se produire. Faites-le moi savoir (le développeur), via email ou sur github. Merci.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="230"/>
+        <location filename="../qml/content/MainPage.qml" line="227"/>
         <source>Something went wrong while trying to delete the database file. Error message:</source>
-        <translation>データベース削除中に何らかの異常が発生しました。エラーメッセージ:</translation>
+        <translation>Une erreur s&apos;est produite lors de la suppression d&apos;un fichier de base de données. Message d&apos;erreur :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="245"/>
+        <location filename="../qml/content/MainPage.qml" line="242"/>
         <source>Unknown error</source>
-        <translation>不明なエラー</translation>
+        <translation>Erreur inconnue</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="737"/>
+        <location filename="../qml/content/MainPage.qml" line="734"/>
         <source>Password changed</source>
-        <translation>パスワードが変更されました。</translation>
+        <translation>Mot de passe modifié</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="737"/>
+        <location filename="../qml/content/MainPage.qml" line="734"/>
         <source>The master password of your database was changed successfully.</source>
-        <translation>データベースのマスターパスワードは正常に変更されました。</translation>
+        <translation>Le mot de passe principal de votre base de données a été modifié.</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="147"/>
+        <location filename="../qml/content/MainPage.qml" line="144"/>
         <source>Internal key error</source>
-        <translation>キー内部エラー</translation>
+        <translation>Erreur interne de la clé</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="101"/>
-        <location filename="../qml/content/MainPage.qml" line="251"/>
-        <location filename="../qml/content/MainPage.qml" line="257"/>
+        <location filename="../qml/content/MainPage.qml" line="248"/>
+        <location filename="../qml/content/MainPage.qml" line="254"/>
         <source>Error loading database</source>
-        <translation>データベース読込みエラー</translation>
+        <translation>Erreur de chargement de la base de données</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="141"/>
+        <location filename="../qml/content/MainPage.qml" line="138"/>
         <source>Internal file error</source>
-        <translation>ファイル内部エラー</translation>
+        <translation>Erreur de fichier interne</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="142"/>
+        <location filename="../qml/content/MainPage.qml" line="139"/>
         <source>The following error occured during creation of database:</source>
-        <translation>データベース作成中に次のエラーが発生しました：</translation>
+        <translation>L&apos;erreur suivante est survenue lors de la création de la base de données :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="154"/>
+        <location filename="../qml/content/MainPage.qml" line="151"/>
         <source>Creation of backup group failed with following error:</source>
-        <translation>グループのバックアップ作成は次のエラーにより失敗しました：</translation>
+        <translation>L&apos;erreur suivante est survenue lors de la création de la sauvegarde de groupe :</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="107"/>
         <source>Save database error</source>
-        <translation>データベース保存エラー</translation>
+        <translation>Enregistrer l&apos;erreur de base de données</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="108"/>
         <source>Could not save database with following error:</source>
-        <translation>データベースは次のエラーにより保存できませんでした：</translation>
+        <translation>La base de données n&apos;a pu être sauvegardée en raison des erreurs suivantes :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="136"/>
+        <location filename="../qml/content/MainPage.qml" line="133"/>
         <source>An error occured on closing your database:</source>
-        <translation>データベースを閉じる過程でエラーが発生しました：</translation>
+        <translation>Une erreur est survenue en fermant la base de données :</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="160"/>
+        <location filename="../qml/content/MainPage.qml" line="157"/>
         <source>Crypto init error</source>
-        <translation>暗号初期化エラー</translation>
+        <translation>Erreur Crypto init</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="161"/>
+        <location filename="../qml/content/MainPage.qml" line="158"/>
         <source>Cryptographic algorithms could not be initialized successfully. The database is closed again to prevent any attack. Please try to reopen the app. If the error persists please contact the developer.</source>
-        <translation>暗号化アルゴリズムを正常に初期化できません。あらゆる攻撃を防ぐためデータベースが閉じられています。アプリを再起動して下さい。エラーが続く場合には開発者に相談して下さい。</translation>
+        <translation>Les algorithmes cryptographiques n&apos;ont pas pu être initialisés correctement. La base de données a été fermée pour prévenir toute attaque. Essayer de ré-ouvrir l&apos;application. Si l&apos;erreur persiste, contactez le développeur. </translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="235"/>
+        <location filename="../qml/content/MainPage.qml" line="232"/>
         <source>Conversion of QString &quot;%1&quot; to Int failed</source>
-        <translation>QString &quot;%1&quot;をIntに変換できません</translation>
+        <translation>Conversion de Qstring &quot;%1&quot; vers Int échoué</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="252"/>
+        <location filename="../qml/content/MainPage.qml" line="249"/>
         <source>File %1 does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Le fichier %1 n&apos;existe pas</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="258"/>
+        <location filename="../qml/content/MainPage.qml" line="255"/>
         <source>Unable to open file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ouverture du fichier %1 impossible</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1117"/>
+        <location filename="../qml/content/MainPage.qml" line="1114"/>
         <source>Drop from List</source>
-        <translation>リストから削除</translation>
+        <translation>Supprimer de la liste</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1195"/>
+        <location filename="../qml/content/MainPage.qml" line="1192"/>
         <source>Yes</source>
-        <translation>はい</translation>
+        <translation>Oui</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1196"/>
+        <location filename="../qml/content/MainPage.qml" line="1193"/>
         <source>No</source>
-        <translation>いいえ</translation>
+        <translation>Non</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1197"/>
+        <location filename="../qml/content/MainPage.qml" line="1194"/>
         <source>Unsaved changes</source>
-        <translation>保存されていない変更</translation>
+        <translation>Modifications non enregistrées</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1242"/>
+        <location filename="../qml/content/MainPage.qml" line="1239"/>
         <source>Do you want to save changes to the password entry?</source>
-        <translation>パスワードエントリの変更を保存しますか？</translation>
+        <translation>Voulez-vous enregistrer les modifications du mot de passe ?</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1247"/>
+        <location filename="../qml/content/MainPage.qml" line="1244"/>
         <source>Do you want to save changes to the password group?</source>
-        <translation>パスワードグループの変更を保存しますか？</translation>
+        <translation>Voulez-vous enregistrer les modifications du groupe de mots de passe ?</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1252"/>
+        <location filename="../qml/content/MainPage.qml" line="1249"/>
         <source>Do you want to save changes to database settings?</source>
-        <translation>データベース設定の変更を保存しますか？</translation>
+        <translation>Voulez-vous enregistrer les modifications des paramètres de la base de données ?</translation>
     </message>
     <message>
-        <location filename="../qml/content/MainPage.qml" line="1257"/>
+        <location filename="../qml/content/MainPage.qml" line="1254"/>
         <source>Do you want to save changed settings values?</source>
-        <translation>変更内容を保存しますか？</translation>
+        <translation>Voulez-vous enregistrer les changements de paramètres ?</translation>
     </message>
 </context>
 <context>
@@ -1461,22 +1458,22 @@
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="38"/>
         <source>Show more details</source>
-        <translation>更に詳細を表示</translation>
+        <translation>Afficher plus de détails</translation>
     </message>
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="77"/>
         <source>Key file path and name</source>
-        <translation>キーファイルのパスと名前</translation>
+        <translation>Emplacement et nom du fichier de clé</translation>
     </message>
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="77"/>
         <source>No key file used</source>
-        <translation>キーファイルは使われていません</translation>
+        <translation>Aucun  fichier de clé utilisé</translation>
     </message>
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="94"/>
         <source>Recent databases</source>
-        <translation>最近使ったデータベース</translation>
+        <translation>Bases de données récentes</translation>
     </message>
 </context>
 <context>
@@ -1485,17 +1482,17 @@
         <location filename="../qml/content/MovePasswordEntryDialog.qml" line="72"/>
         <source>Accept</source>
         <extracomment>&quot;Accept&quot; in dialog for choosing group to move password entry into</extracomment>
-        <translation>移動する</translation>
+        <translation>Accepter</translation>
     </message>
     <message>
         <location filename="../qml/content/MovePasswordEntryDialog.qml" line="73"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/MovePasswordEntryDialog.qml" line="79"/>
         <source>Move password entry &quot;%1&quot; into following group:</source>
-        <translation>パスワードエントリ&quot;%1&quot;を次のグループへ移動する：</translation>
+        <translation>Déplacer le mot de passe &quot;%1&quot; dans le groupe suivant :</translation>
     </message>
 </context>
 <context>
@@ -1503,27 +1500,27 @@
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="32"/>
         <source>Enter master password</source>
-        <translation>マスターパスワードを入力</translation>
+        <translation>Entrer le mot de passe principal</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="33"/>
         <source>Master password</source>
-        <translation>マスターパスワード</translation>
+        <translation>Mot de passe principal</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="34"/>
         <source>Confirm master password</source>
-        <translation>マスターパスワードの確認</translation>
+        <translation>Confirmer le mot de passe principal</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="35"/>
         <source>Master password confirmed</source>
-        <translation>マスターパスワードが確認されました</translation>
+        <translation>Mot de passe principal confirmé</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="36"/>
         <source>Confirm password</source>
-        <translation>パスワードの確認</translation>
+        <translation>Confirmer le mot de passe</translation>
     </message>
 </context>
 <context>
@@ -1531,43 +1528,43 @@
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="74"/>
         <source>Accept</source>
-        <translation>適用</translation>
+        <translation>Accepter</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="75"/>
         <source>Discard</source>
-        <translation>破棄</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="83"/>
         <source>Generated password</source>
-        <translation>新規パスワードを生成</translation>
+        <translation>Générer le mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="84"/>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="89"/>
         <source>No char group selected</source>
-        <translation>文字グループが選択されていません</translation>
+        <translation>Pas de groupe de caractères sélectionnés </translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="113"/>
         <source>Length</source>
-        <translation>長さ</translation>
+        <translation>Longueur</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="172"/>
         <source>Exclude look-alike characters</source>
-        <translation>判別しづらい文字を除外する</translation>
+        <translation>Exclure les caractères qui se ressemble</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="183"/>
         <source>Ensure that the password contains characters from every group</source>
-        <translation>パスワードに全ての種類の文字が含まれていることを確認して下さい。</translation>
+        <translation>Assurez-vous que le mot de contient des caractères de chaque groupe</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="198"/>
         <source>Generate</source>
-        <translation>生成</translation>
+        <translation>Générer</translation>
     </message>
 </context>
 <context>
@@ -1575,60 +1572,60 @@
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="158"/>
         <source>Please specify a new Keepass database file:</source>
-        <translation>新規データベースファイルを指定してください：</translation>
+        <translation>Veuillez indiquer une nouvelle base de données Keepass :</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="185"/>
         <source>Please choose an existing Keepass database file:</source>
-        <translation>既存のデータベースファイルを選択してください</translation>
+        <translation>Choisissez une base de données Keepass existante, SVP :</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="119"/>
         <source>Use key file</source>
-        <translation>キーファイルを使用</translation>
+        <translation>Utiliser le fichier de clé</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="87"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="120"/>
         <source>Switch this on to use a key file together with a master password for your new Keepass database</source>
-        <translation>新規データベースでマスターパスワードとキーファイルを併用する場合はONにしてください</translation>
+        <translation>Activez ceci pour utiliser un fichier de clé associé à un mot de passe principal pour votre nouvelle base de données Keepass.</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="156"/>
         <source>Create</source>
-        <translation>作成</translation>
+        <translation>Créer</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="157"/>
         <source>New Password Safe</source>
-        <translation>新規Password Safe</translation>
+        <translation>Nouveau gestionnaire de mots de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="163"/>
         <source>Type in a master password for locking your new Keepass Password Safe:</source>
-        <translation>マスターパスワードを入力して新規Password Safeをロックする：</translation>
+        <translation>Saisir un mot de passe principal pour verrouiller votre nouveau gestionnaire de mots de passe Keepass :</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="183"/>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="208"/>
         <source>Open</source>
-        <translation>開く</translation>
+        <translation>Ouvrir</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="184"/>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="209"/>
         <source>Password Safe</source>
-        <translation>Password Safe</translation>
+        <translation>Gestionnaire de mots de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="190"/>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="213"/>
         <source>Type in master password for unlocking your Keepass Password Safe:</source>
-        <translation>マスターパスワードを入力して新規Password Safeをアンロックする：</translation>
+        <translation>Saisir un mot de passe principal pour déverrouiller votre gestionnaire de mots de passe Keepass :</translation>
     </message>
 </context>
 <context>
@@ -1636,27 +1633,27 @@
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="55"/>
         <source>No content</source>
-        <translation>コメントなし</translation>
+        <translation>Pas de contenu</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="57"/>
         <source>Pull down to add URL, username, password, comment and additional attributes</source>
-        <translation>プルダウンしてURL、ユーザ名、パスワード、コメント、追加属性を追加してくださ</translation>
+        <translation>Tirez vers le bas pour ajouter une URL, un nom d&apos;utilisateur, un mot de passe, un commentaire et des attributs additionels</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="74"/>
         <source>Read only mode</source>
-        <translation>リードオンリーモード</translation>
+        <translation>Mode lecture seule</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="80"/>
         <source>Edit password entry</source>
-        <translation>パスワードエントリを編集</translation>
+        <translation>Modifier la saisie de mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="115"/>
         <source>URL</source>
-        <translation>URL</translation>
+        <translation>Adresse Internet</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="116"/>
@@ -1665,28 +1662,28 @@
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="149"/>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="167"/>
         <source>Copy to clipboard</source>
-        <translation>クリップボードにこぴ</translation>
+        <translation>Copier dans le presse-papier</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="131"/>
         <source>Username</source>
-        <translation>ユーザ名</translation>
+        <translation>Nom d&apos;utilisateur</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="139"/>
         <source>Password</source>
-        <translation>パスワード</translation>
+        <translation>Mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="148"/>
         <source>Comment</source>
-        <translation>コメント</translation>
+        <translation>Commentaire</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="170"/>
         <source>password</source>
         <extracomment>Translate &quot;password&quot; with all low letters. It is used in pattern matching to deside to hide additional attributes of Keepass 2 database.</extracomment>
-        <translation>パスワード</translation>
+        <translation>mot de passe</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="172"/>

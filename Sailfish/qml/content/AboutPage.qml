@@ -3,26 +3,26 @@
 ** Copyright (C) 2013-2014 Marko Koschak (marko.koschak@tisno.de)
 ** All rights reserved.
 **
-** This file is part of ownKeepass.
+** This file is part of KeePassSF.
 **
-** ownKeepass is free software: you can redistribute it and/or modify
+** KeePassSF is free software: you can redistribute it and/or modify
 ** it under the terms of the GNU General Public License as published by
 ** the Free Software Foundation, either version 2 of the License, or
 ** (at your option) any later version.
 **
-** ownKeepass is distributed in the hope that it will be useful,
+** KeePassSF is distributed in the hope that it will be useful,
 ** but WITHOUT ANY WARRANTY; without even the implied warranty of
 ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ** GNU General Public License for more details.
 **
 ** You should have received a copy of the GNU General Public License
-** along with ownKeepass. If not, see <http://www.gnu.org/licenses/>.
+** along with KeePassSF. If not, see <http://www.gnu.org/licenses/>.
 **
 ***************************************************************************/
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import harbour.ownkeepass 1.0
+import harbour.keepasssf 1.0
 import "../common"
 
 Page {
@@ -44,7 +44,7 @@ Page {
             spacing: Theme.paddingLarge
 
             PageHeaderExtended {
-                title: qsTr("About ownKeepass")
+                title: qsTr("About KeePassSF")
                 subTitle: qsTr("Password Safe")
                 subTitleOpacity: 0.5
                 subTitleBottomMargin: aboutPage.orientation & Orientation.PortraitMask ? Theme.paddingSmall : 0
@@ -52,7 +52,7 @@ Page {
 
             Image {
                 anchors.horizontalCenter: parent.horizontalCenter
-                source: "/usr/share/icons/hicolor/256x256/apps/harbour-ownkeepass.png"
+                source: "/usr/share/icons/hicolor/256x256/apps/harbour-keepasssf.png"
                 width: height
                 height: Screen.sizeCategory >= Screen.Large ?
                             implicitHeight :
@@ -63,7 +63,7 @@ Page {
                 textFormat: Text.StyledText
                 linkColor: Theme.highlightColor
                 horizontalAlignment: Text.AlignHCenter
-                text: qsTr("ownKeepass is a Keepass 2 compatible password safe application")
+                text: qsTr("KeePassSF is a KeePass 2 compatible password safe application")
             }
 
             SilicaLabel {
@@ -106,7 +106,7 @@ Copyright &#169; 2013-2019 Marko Koschak"
                 textFormat: Text.StyledText
                 linkColor: Theme.highlightColor
                 horizontalAlignment: Text.AlignHCenter
-                text: qsTr("ownKeepass is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.")
+                text: qsTr("KeePassSF is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.")
             }
 
             SilicaLabel {
@@ -197,9 +197,9 @@ issue a bug report or improvement idea, send me a café or just like my app and 
                 font.pixelSize: Theme.fontSizeExtraSmall
                 text: qsTr("My best appreciations go to:") + "<br><br>" +
                       qsTr("Jolla (for continuing where Nokia stopped)") + "<br>" +
-                      qsTr("The KeepassX project (for a Qt implementation of Keepass)") + "<br>" +
+                      qsTr("The KeepassXC project (for a Qt implementation of Keepass)") + "<br>" +
                       //: %1 and %2 are placeholders for links to the project on transifex and github
-                      qsTr("And finally many thanks to all translators on %1 and contributors on %2 (for keeping me motivated to work on ownKeepass)")
+                      qsTr("And finally many thanks to all translators on %1 and contributors on %2")
                 .arg("<a href=\"https://www.transifex.com/projects/p/jobe_m-ownKeepass/\">transifex</a>")
                 .arg("<a href=\"https://github.com/jobe-m/ownkeepass/graphs/contributors\">GitHub</a>") + "<br><br>" +
                 qsTr("Alphabetical list of all contributors:") + "<br><br>" +
@@ -252,8 +252,8 @@ issue a bug report or improvement idea, send me a café or just like my app and 
                 "umglurf<br>" +
                 "Vistaus (Heimen Stoffels)<br>" +
                 "xmlich02 (Jozef Mlích)<br>" +
-                "<br>" +
-                qsTr("I hope you have as much fun using ownKeepass as I have creating it!")
+                "<br>"
+
                 onLinkActivated: {
                     Qt.openUrlExternally(link)
                 }

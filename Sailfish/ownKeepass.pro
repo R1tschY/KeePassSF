@@ -3,20 +3,20 @@
 # Copyright (C) 2013 - 2019 Marko Koschak (marko.koschak@tisno.de)
 # All rights reserved.
 #
-# This file is part of ownKeepass.
+# This file is part of KeePassSF.
 #
-# ownKeepass is free software: you can redistribute it and/or modify
+# KeePassSF is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 2 of the License, or
 # (at your option) any later version.
 #
-# ownKeepass is distributed in the hope that it will be useful,
+# KeePassSF is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with ownKeepass. If not, see <http://www.gnu.org/licenses/>.
+# along with KeePassSF. If not, see <http://www.gnu.org/licenses/>.
 #
 ############################################################################
 
@@ -40,7 +40,7 @@ DEFINES += PROGRAMVERSION=\\\"$$VERSION\\\"
 #         - desktop icon filename must be changed
 #         - desktop filename must be changed
 #         - icon definition filename in desktop file must be changed
-TARGET = harbour-ownkeepass
+TARGET = harbour-keepasssf
 
 # adding common QML files, QML imports, C++ libs and image files for the app
 common_files.path   = /usr/share/$${TARGET}
@@ -119,8 +119,8 @@ OTHER_FILES += \
     qml/content/AboutPage.qml \
     qml/cover/CoverPage.qml \
     qml/scripts/Global.js \
-    harbour-ownkeepass.desktop \
-    rpm/harbour-ownkeepass.spec \
+    harbour-keepasssf.desktop \
+    rpm/harbour-keepasssf.spec \
     qml/Main.qml \
     qml/content/MainPage.qml \
     qml/help/HelpMainPage.qml \
@@ -146,27 +146,27 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172 256x256
 CONFIG += sailfishapp_i18n
 
 TRANSLATIONS += \
-    translations/harbour-ownkeepass-ca.ts \
-    translations/harbour-ownkeepass-zh_CN.ts \
-    translations/harbour-ownkeepass-cs_CZ.ts \
-    translations/harbour-ownkeepass-da.ts \
-    translations/harbour-ownkeepass-nl_BE.ts \
-    translations/harbour-ownkeepass-nl_NL.ts \
-    translations/harbour-ownkeepass-en.ts \
-    translations/harbour-ownkeepass-fi_FI.ts \
-    translations/harbour-ownkeepass-fr_FR.ts \
-    translations/harbour-ownkeepass-de_DE.ts \
-    translations/harbour-ownkeepass-it.ts \
-    translations/harbour-ownkeepass-nb_NO.ts \
-    translations/harbour-ownkeepass-pl_PL.ts \
-    translations/harbour-ownkeepass-ru.ts \
-    translations/harbour-ownkeepass-es.ts \
-    translations/harbour-ownkeepass-sv_SE.ts \
-    translations/harbour-ownkeepass-el.ts \
-    translations/harbour-ownkeepass-ja_JP.ts \
-    translations/harbour-ownkeepass-hu_HU.ts \
-    translations/harbour-ownkeepass-gl.ts \
-    translations/harbour-ownkeepass-sr_RS.ts
+    translations/harbour-keepasssf-ca.ts \
+    translations/harbour-keepasssf-zh_CN.ts \
+    translations/harbour-keepasssf-cs_CZ.ts \
+    translations/harbour-keepasssf-da.ts \
+    translations/harbour-keepasssf-nl_BE.ts \
+    translations/harbour-keepasssf-nl_NL.ts \
+    translations/harbour-keepasssf-en.ts \
+    translations/harbour-keepasssf-fi_FI.ts \
+    translations/harbour-keepasssf-fr_FR.ts \
+    translations/harbour-keepasssf-de_DE.ts \
+    translations/harbour-keepasssf-it.ts \
+    translations/harbour-keepasssf-nb_NO.ts \
+    translations/harbour-keepasssf-pl_PL.ts \
+    translations/harbour-keepasssf-ru.ts \
+    translations/harbour-keepasssf-es.ts \
+    translations/harbour-keepasssf-sv_SE.ts \
+    translations/harbour-keepasssf-el.ts \
+    translations/harbour-keepasssf-ja_JP.ts \
+    translations/harbour-keepasssf-hu_HU.ts \
+    translations/harbour-keepasssf-gl.ts \
+    translations/harbour-keepasssf-sr_RS.ts
 
 DISTFILES += \
     qml/content/EditItemIconDialog.qml \
