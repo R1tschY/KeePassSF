@@ -56,12 +56,12 @@ int main(int argc, char *argv[])
     //
     // To display the view, call "show()" (will show fullscreen on device).
 
-    const QString settingsFilePath(
-                QStandardPaths::writableLocation(QStandardPaths::ConfigLocation)
-                + "/settings.ini");
-
     QScopedPointer<QGuiApplication> app(SailfishApp::application(argc, argv));
     QScopedPointer<QQuickView> view(SailfishApp::createView());
+
+    const QString settingsFilePath(
+                QStandardPaths::writableLocation(QStandardPaths::AppConfigLocation)
+                + "/settings.ini");
 
     Q_INIT_RESOURCE(icons);
 
